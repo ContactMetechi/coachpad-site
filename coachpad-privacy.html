@@ -5,79 +5,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoachPad Privacy Policy</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
-        h1, h2 { color: #2c3e50; }
-        p { margin-bottom: 10px; }
-        ol { margin-bottom: 20px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.7;
+            background-color: #f8f9fa;
+            color: #495057;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #212529;
+            font-size: 2.2em;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #343a40;
+            font-size: 1.6em;
+            margin-top: 30px;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #495057;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        p, li {
+            font-size: 1em;
+            color: #555;
+        }
+        ul, ol {
+            padding-left: 30px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            background-color: #e9f5ff;
+            border: 1px solid #b6dfff;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .last-updated {
+            font-size: 0.9em;
+            color: #6c757d;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <h1>CoachPad Privacy Policy</h1>
-    <p><strong>Last Updated:</strong> September 23, 2025</p>
 
-    <h2>1. Introduction</h2>
-    <p>CoachPad (“app”, “we”, “our”) values the privacy of its users. This Privacy Policy explains how your data is collected, used, shared, and protected when you use the app.</p>
+    <div class="container">
+        <h1>CoachPad Privacy Policy</h1>
+        <p class="last-updated"><strong>Last Updated:</strong> November 3, 2025</p>
 
-    <h2>2. Data Collected</h2>
-    <h3>2.1. Directly Collected Data</h3>
-    <p>CoachPad does not collect the following user data:</p>
-    <ul>
-        <li>Name, email address, or phone number</li>
-        <li>Location data</li>
-        <li>Contact lists</li>
-    </ul>
+        <h2>1. Introduction</h2>
+        <p>CoachPad (“app”, “we”, “our”, “us”) is committed to protecting the privacy of its users. This Privacy Policy explains what information we collect, how we use it, and your rights in relation to it when you use our mobile application.</p>
 
-    <h3>2.2. Automatically Collected Data</h3>
-    <ul>
-        <li>Device Information: Device model, operating system version</li>
-        <li>Usage Data: In-app preferences, settings, created tactics, and animations</li>
-    </ul>
+        <h2>2. Information We Collect</h2>
+        <p>We collect the following types of information to provide and improve our services:</p>
 
-    <h3>2.3. Third-Party Services</h3>
-    <ul>
-        <li>Google Mobile Ads (AdMob): Device information for ad display (Advertising ID)</li>
-        <li>Firebase: App analytics and crash reporting</li>
-        <li>In-App Purchase: Premium subscription transactions (payment information is handled by Google)</li>
-    </ul>
+        <h3>2.1. Information You Provide</h3>
+        <ul>
+            <li><strong>Account Information:</strong> When you choose to create an account (via Email, Google Sign-In, or Apple Sign-In), we collect your email address and a unique user identifier. This is used solely for authentication and to enable cloud sync features.</li>
+        </ul>
 
-    <h2>3. Storage and Permissions</h2>
-    <p>Tactics and animations are stored only on your device; no cloud backup or server sync is performed.</p>
-    <p>Android permissions:</p>
-    <ul>
-        <li>READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE (Android 12 and below)</li>
-        <li>READ_MEDIA_IMAGES / READ_MEDIA_VIDEO (Android 13+)</li>
-    </ul>
+        <h3>2.2. User-Generated Content (Premium Users)</h3>
+        <ul>
+            <li><strong>Tactics and Animations:</strong> If you are a logged-in Premium user, we collect the tactics and animations you create and choose to sync. This data is stored securely on our backend servers (Supabase) to provide backup and synchronization across your devices.</li>
+        </ul>
 
-    <h2>4. Ads and Analytics</h2>
-    <ul>
-        <li>Google AdMob: Test ad units are used; ads are not personalized. Ads can be removed with a premium subscription</li>
-        <li>Firebase: App usage statistics, crash, and performance monitoring</li>
-    </ul>
+        <h3>2.3. Information Collected Automatically</h3>
+        <ul>
+            <li><strong>Local Usage Data:</strong> App preferences, settings, and any tactics/animations you create are stored locally on your device.</li>
+            <li><strong>Device Information:</strong> We collect basic device information such as device model and operating system version for analytics and crash reporting.</li>
+        </ul>
 
-    <h2>5. Premium Subscription</h2>
-    <ul>
-        <li>Subscriptions are processed through Google Play Store</li>
-        <li>Premium features: ad-free experience, unlimited PNG/MP4 sharing</li>
-    </ul>
+        <h2>3. How We Use Your Information</h2>
+        <ul>
+            <li><strong>To Provide the Service:</strong> To authenticate your account, process your subscriptions, and (for Premium users) securely sync your tactics and animations.</li>
+            <li><strong>To Improve the App:</strong> We use Firebase Crashlytics and Analytics to monitor app stability, detect crashes, and understand usage patterns to improve features.</li>
+            <li><strong>To Display Advertisements:</strong> For non-Premium users, we display non-personalized ads using Google AdMob.</li>
+        </ul>
 
-    <h2>6. Data Sharing</h2>
-    <p>User data is not sold or shared with third parties, except for service providers (Google AdMob, Firebase) and legal obligations.</p>
+        <h2>4. Data Storage and Synchronization</h2>
+        <ul>
+            <li><strong>Local Storage:</strong> For all users, all tactics and animations are stored by default **locally on your device**.</li>
+            <li><strong>Cloud Synchronization (Premium Feature):</strong> If you are a Premium user and logged in, your tactics and animations are also securely synchronized with our cloud backend (Supabase). **If you are not a Premium user or are not logged in, your data never leaves your device.**</li>
+        </ul>
 
-    <h2>7. Data Security</h2>
-    <p>Tactics and animation data is stored on the device. No internet data transfer is performed (third-party services use SSL encryption).</p>
+        <h2>5. Third-Party Services and Data Sharing</h2>
+        <p>We do not sell your personal data. We only share information with the following third-party service providers who are essential for the app to function:</p>
+        <ul>
+            <li><strong>Supabase:</strong> Our backend provider for user authentication (e.g., login) and cloud database (tactic/animation sync for Premium users).</li>
+            <li><strong>Google AdMob:</strong> Displays non-personalized advertisements to non-Premium users.</li>
+            <li><strong>Firebase (by Google):</strong> Provides app analytics and crash reporting to help us identify and fix bugs.</li>
+            <li><strong>Google Play & Apple App Store:</strong> Process all in-app purchases and subscriptions. We do not handle or store your payment information.</li>
+        </ul>
+        <p>We may also disclose your information if required by law.</p>
 
-    <h2>8. User Rights</h2>
-    <ul>
-        <li>Data Deletion: Delete all data by uninstalling the app</li>
-        <li>Permission Management: Manage permissions in your device settings</li>
-        <li>Subscription Cancellation: Cancel premium subscription via Google Play Store</li>
-    </ul>
+        <h2>6. App Permissions</h2>
+        <p>To function correctly, CoachPad may request the following permissions:</p>
+        <ul>
+            <li><strong>iOS:</strong> Permission to access your Photo Library (<code>NSPhotoLibraryUsageDescription</code> / <code>NSPhotoLibraryAddUsageDescription</code>) is required to save exported tactics (PNG) and animations (MP4) to your device's gallery.</li>
+            <li><strong>Android:</strong> Permission to access media files (<code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_VIDEO</code> for Android 13+; <code>READ_EXTERNAL_STORAGE</code> / <code>WRITE_EXTERNAL_STORAGE</code> for older versions) is required to save exported tactics (PNG) and animations (MP4) to your device's gallery.</li>
+        </ul>
 
-    <h2>9. Children’s Privacy</h2>
-    <p>CoachPad is not designed for children under 13 years of age.</p>
+        <h2>7. Your Rights and Data Deletion</h2>
+        <p>You have control over your data in the following ways:</p>
+        <ul>
+            <li><strong>Local Data:</strong> All tactics and animations stored locally on your device can be deleted at any time by clearing the app's data or uninstalling the app.</li>
+            <li><strong>Cloud Data & Account Deletion:</strong> If you have created an account, your account information (email) and any synced cloud data (tactics/animations) will remain on our servers even if you uninstall the app. **To request the permanent deletion of your account and all associated cloud data, please send an email to our support address.**</li>
+            <li><strong>Permissions:</strong> You can manage app permissions at any time through your device's settings menu.</li>
+            <li><strong>Subscriptions:</strong> You can manage or cancel your Premium subscription at any time through your Google Play Store or Apple App Store account settings.</li>
+        </ul>
 
-    <h2>10. Contact</h2>
-    <p>Email: <a href="mailto:contact.metechi@gmail.com">contact.metechi@gmail.com</a></p>
+        <h2>8. Children’s Privacy</h2>
+        <p>CoachPad is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+        
+        <h2>9. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app and updating the "Last Updated" date at the top of this page.</p>
+
+        <h2>10. Contact Us</h2>
+        <p class="contact">If you have any questions about this Privacy Policy or wish to request data deletion, please contact us at: <br>
+            <strong><a href="mailto:contact.metechi@gmail.com">contact.metechi@gmail.com</a></strong>
+        </p>
+    </div>
 
 </body>
 </html>
