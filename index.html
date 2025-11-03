@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoachPad - Tactical Board App</title>
+  <title>Metechi - Developer Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,9 +15,9 @@
       color: #333;
     }
     header {
-      background: #00b35c;
+      background: #0066cc;
       color: white;
-      padding: 40px 20px;
+      padding: 50px 20px;
       border-bottom-left-radius: 30px;
       border-bottom-right-radius: 30px;
     }
@@ -27,7 +28,7 @@
       margin-bottom: 20px;
     }
     h1 {
-      font-size: 2em;
+      font-size: 2.2em;
       margin: 0;
     }
     p {
@@ -38,16 +39,17 @@
     }
     a.button {
       display: inline-block;
-      background: #00b35c;
+      background: #0066cc;
       color: white;
       padding: 12px 28px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
+      margin: 10px 0;
       transition: background 0.2s ease;
     }
     a.button:hover {
-      background: #00914d;
+      background: #004999;
     }
     section {
       margin: 40px auto;
@@ -56,8 +58,27 @@
       padding: 0 20px;
     }
     h2 {
-      color: #00b35c;
+      color: #0066cc;
       margin-top: 40px;
+    }
+    ul.projects {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul.projects li {
+      background: white;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    ul.projects li a {
+      color: #0066cc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    ul.projects li a:hover {
+      text-decoration: underline;
     }
     footer {
       margin-top: 60px;
@@ -66,7 +87,7 @@
       color: #555;
     }
     footer a {
-      color: #00b35c;
+      color: #0066cc;
       text-decoration: none;
       margin: 0 10px;
     }
@@ -78,25 +99,26 @@
 <body>
 
   <header>
-    <img src="assets/logo.png" alt="CoachPad Logo" class="logo">
-    <h1>CoachPad</h1>
-    <p>The easiest way to create, animate, and share your tactics.</p>
-    <a href="https://play.google.com/store/apps/details?id=com.coachpad" class="button">Get it on Google Play</a>
+    <img src="assets/logo.png" alt="Metechi Logo" class="logo">
+    <h1>Metechi</h1>
+    <p>Hi, I'm Metechi. I create web and mobile applications with passion and simplicity. Explore my projects and apps below.</p>
   </header>
 
   <section>
-    <h2>About CoachPad</h2>
+    <h2>About Me</h2>
     <p>
-      CoachPad is a mobile and web application that helps coaches, trainers, and teams easily design and animate tactical plans. 
-      Users can create drills, organize formations, and share tactical ideas in real time. It’s designed for sports coaches who want a simple yet powerful tactical board tool.
+      I'm a software developer focusing on mobile and web apps. I enjoy designing intuitive interfaces, building interactive experiences, and helping coaches, teams, and users achieve more with technology.
     </p>
+  </section>
 
-    <h2>Why We Use Google Sign-In</h2>
-    <p>
-      CoachPad uses Google Sign-In to securely authenticate users and synchronize their tactical data across devices. 
-      This ensures that your sessions and animations are safely stored and accessible from any device you log in to. 
-      We do <strong>not</strong> share your personal information with third parties.
-    </p>
+  <section>
+    <h2>My Applications</h2>
+    <ul class="projects">
+      <li>
+        <a href="coachpad.html">CoachPad</a> – A tactical board app for coaches to create, animate, and share their tactics easily.
+      </li>
+      <!-- Yeni projeler buraya eklenebilir -->
+    </ul>
   </section>
 
   <footer>
@@ -104,7 +126,7 @@
       <a href="https://www.metechi.dev/privacy.html">Privacy Policy</a> |
       <a href="mailto:contact.metechi@gmail.com">Contact</a>
     </p>
-    <p>© 2025 CoachPad. All rights reserved.</p>
+    <p>© 2025 Metechi. All rights reserved.</p>
   </footer>
 
 </body>
