@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -37,18 +36,24 @@
       max-width: 700px;
       line-height: 1.6;
     }
+    .button-container {
+      margin-top: 20px;
+    }
     a.button {
       display: inline-block;
-      background: #00b35c;
-      color: white;
+      background: #ffffff; /* Buton arka planını beyaz yaptım ki yeşil üzerinde görünsün */
+      color: #00b35c;      /* Yazı rengini logonun yeşili yaptım */
       padding: 12px 28px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      transition: background 0.2s ease;
+      transition: background 0.2s ease, transform 0.2s ease;
+      margin: 10px; /* Butonlar arası boşluk */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     a.button:hover {
-      background: #00914d;
+      background: #f1f1f1;
+      transform: translateY(-2px);
     }
     section {
       margin: 40px auto;
@@ -82,7 +87,11 @@
     <img src="assets/logo.png" alt="CoachPad Logo" class="logo">
     <h1>CoachPad</h1>
     <p>The easiest way to create, animate, and share your tactics.</p>
-    <a href="https://play.google.com/store/apps/details?id=com.coachpad" class="button">Get it on Google Play</a>
+    
+    <div class="button-container">
+      <a href="https://play.google.com/store/apps/details?id=com.coachpad" class="button">Get it on Google Play</a>
+      <a href="https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315" class="button">Download on the App Store</a>
+    </div>
   </header>
 
   <section>
