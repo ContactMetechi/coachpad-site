@@ -1,80 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Metechi - Developer Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metechi – Developer Portfolio</title>
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #f8f9fa;
+    * {
+      box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8f9fa;
       color: #333;
-    }
-    header {
-      background: #0066cc;
-      color: white;
-      padding: 60px 20px;
-      border-bottom-left-radius: 30px;
-      border-bottom-right-radius: 30px;
-    }
-    h1 {
-      font-size: 2.4em;
-      margin: 0;
-    }
-    p {
-      font-size: 1.1em;
-      margin: 20px auto;
-      max-width: 700px;
       line-height: 1.6;
+      text-align: center;
     }
+
+    header {
+      background: linear-gradient(135deg, #0066cc, #004c99);
+      color: white;
+      padding: 60px 20px 70px;
+      border-bottom-left-radius: 32px;
+      border-bottom-right-radius: 32px;
+    }
+
+    .logo {
+      width: 110px;
+      height: auto;
+      margin: 0 auto 20px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 16px;
+    }
+
+    header p {
+      max-width: 720px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
     section {
-      margin: 40px auto;
-      max-width: 700px;
-      text-align: left;
+      max-width: 760px;
+      margin: 50px auto;
       padding: 0 20px;
+      text-align: left;
     }
+
     h2 {
       color: #0066cc;
-      margin-top: 40px;
+      margin-bottom: 16px;
+      font-size: 1.6rem;
     }
-    ul.projects {
-      list-style-type: none;
-      padding: 0;
+
+    section p {
+      font-size: 1.05rem;
     }
-    ul.projects li {
-      background: white;
-      margin: 12px 0;
-      padding: 16px;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+    .projects {
+      list-style: none;
+      margin-top: 20px;
     }
-    ul.projects li a {
+
+    .projects li {
+      background: #ffffff;
+      padding: 18px 20px;
+      border-radius: 14px;
+      margin-bottom: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .projects a {
       color: #0066cc;
       font-weight: bold;
       text-decoration: none;
     }
-    ul.projects li a:hover {
+
+    .projects a:hover {
       text-decoration: underline;
     }
+
     footer {
-      margin-top: 60px;
-      padding: 20px;
-      font-size: 0.9em;
+      margin-top: 70px;
+      padding: 30px 20px;
+      font-size: 0.9rem;
       color: #555;
     }
+
     footer a {
       color: #0066cc;
       text-decoration: none;
       margin: 0 10px;
     }
+
     footer a:hover {
       text-decoration: underline;
     }
 
-    /* Hidden items (for future projects) */
     .hidden {
       display: none;
     }
@@ -83,20 +112,21 @@
 <body>
 
   <header>
-    <img src="assets/metechi-logo.png" alt="Metechi Logo" class="logo">
+    <img src="assets/metechi-logo.png" alt="Metechi Logo" class="logo" />
     <h1>Metechi</h1>
     <p>
-      Hi, I'm Metechi. I create web and mobile applications with passion and simplicity.
-      Explore my projects and apps below.
+      I build clean, practical web and mobile applications focused on usability,
+      performance, and simplicity.
     </p>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      I’m a software developer focused on building clean, functional, and user-friendly web and mobile applications.
-      I enjoy turning ideas into practical digital solutions, paying attention to simplicity, usability, and performance.
-      I’m always exploring new technologies and improving my skills to create better experiences.
+      I’m a software developer who enjoys turning ideas into well-crafted digital
+      products. My focus is on clean design, intuitive user experience, and
+      maintainable code. I’m constantly learning new technologies and refining
+      my skills to build better solutions.
     </p>
   </section>
 
@@ -104,21 +134,20 @@
     <h2>My Applications</h2>
     <ul class="projects">
       <li>
-        <a href="coachpad.html">CoachPad</a> – A tactical board app for coaches to create,
-        animate, and share their tactics easily.
+        <a href="coachpad.html">CoachPad</a> – A tactical board application that
+        allows coaches to create, animate, and share training tactics with ease.
       </li>
 
-      <!-- Hidden until app is ready -->
       <li class="hidden">
-        <a href="/swiftquote.html">SwiftQuote</a> – A professional quote and invoice creation app
-        designed for small businesses and freelancers.
+        <a href="swiftquote.html">SwiftQuote</a> – A quote and invoice generator
+        designed for freelancers and small businesses.
       </li>
     </ul>
   </section>
 
   <footer>
     <p>
-      <a href="https://www.metechi.dev/privacy.html">Privacy Policy</a> |
+      <a href="privacy.html">Privacy Policy</a> |
       <a href="mailto:contact.metechi@gmail.com">Contact</a>
     </p>
     <p>© 2025 Metechi. All rights reserved.</p>
