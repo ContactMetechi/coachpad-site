@@ -1,282 +1,207 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>CoachPad Privacy Policy</title>
-
-    <style>
-
-        body {
-
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-
-            line-height: 1.7;
-
-            background-color: #f8f9fa;
-
-            color: #495057;
-
-            margin: 0;
-
-            padding: 0;
-
-        }
-
-        .container {
-
-            max-width: 800px;
-
-            margin: 20px auto;
-
-            padding: 30px;
-
-            background-color: #ffffff;
-
-            border-radius: 12px;
-
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-
-        }
-
-        h1 {
-
-            color: #212529;
-
-            font-size: 2.2em;
-
-            border-bottom: 2px solid #dee2e6;
-
-            padding-bottom: 10px;
-
-        }
-
-        h2 {
-
-            color: #343a40;
-
-            font-size: 1.6em;
-
-            margin-top: 30px;
-
-            border-bottom: 1px solid #e9ecef;
-
-            padding-bottom: 5px;
-
-        }
-
-        h3 {
-
-            color: #495057;
-
-            font-size: 1.2em;
-
-            margin-top: 20px;
-
-        }
-
-        p, li {
-
-            font-size: 1em;
-
-            color: #555;
-
-        }
-
-        ul, ol {
-
-            padding-left: 30px;
-
-        }
-
-        a {
-
-            color: #007bff;
-
-            text-decoration: none;
-
-        }
-
-        a:hover {
-
-            text-decoration: underline;
-
-        }
-
-        .contact {
-
-            background-color: #e9f5ff;
-
-            border: 1px solid #b6dfff;
-
-            padding: 15px;
-
-            border-radius: 8px;
-
-            text-align: center;
-
-        }
-
-        .last-updated {
-
-            font-size: 0.9em;
-
-            color: #6c757d;
-
-            font-weight: bold;
-
-        }
-
-    </style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoachPad Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #0f766e;
+      --contact-bg: #ecfeff;
+      --contact-line: #99f6e4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card);
+      border-radius: 14px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      font-size: 1.35rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      margin-top: 18px;
+      font-size: 1.05rem;
+    }
+
+    p, li { color: #374151; }
+    ul { padding-left: 22px; }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .contact {
+      margin-top: 8px;
+      padding: 16px;
+      background: var(--contact-bg);
+      border: 1px solid var(--contact-line);
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-
-
-
-    <div class="container">
-
-        <h1>CoachPad Privacy Policy</h1>
-
-        <p class="last-updated"><strong>Last Updated:</strong> November 3, 2025</p>
-
-
-
-        <h2>1. Introduction</h2>
-
-        <p>CoachPad (“app”, “we”, “our”, “us”) is committed to protecting the privacy of its users. This Privacy Policy explains what information we collect, how we use it, and your rights in relation to it when you use our mobile application.</p>
-
-
-
-        <h2>2. Information We Collect</h2>
-
-        <p>We collect the following types of information to provide and improve our services:</p>
-
-
-
-        <h3>2.1. Information You Provide</h3>
-
-        <ul>
-
-            <li><strong>Account Information:</strong> When you choose to create an account (via Email, Google Sign-In, or Apple Sign-In), we collect your email address and a unique user identifier. This is used solely for authentication and to enable cloud sync features.</li>
-
-        </ul>
-
-
-
-        <h3>2.2. User-Generated Content (Premium Users)</h3>
-
-        <ul>
-
-            <li><strong>Tactics and Animations:</strong> If you are a logged-in Premium user, we collect the tactics and animations you create and choose to sync. This data is stored securely on our backend servers (Supabase) to provide backup and synchronization across your devices.</li>
-
-        </ul>
-
-
-
-        <h3>2.3. Information Collected Automatically</h3>
-
-        <ul>
-
-            <li><strong>Local Usage Data:</strong> App preferences, settings, and any tactics/animations you create are stored locally on your device.</li>
-
-            <li><strong>Device Information:</strong> We collect basic device information such as device model and operating system version for analytics and crash reporting.</li>
-
-        </ul>
-
-
-
-        <h2>3. How We Use Your Information</h2>
-
-        <ul>
-
-            <li><strong>To Provide the Service:</strong> To authenticate your account, process your subscriptions, and (for Premium users) securely sync your tactics and animations.</li>
-
-            <li><strong>To Improve the App:</strong> We use Firebase Crashlytics and Analytics to monitor app stability, detect crashes, and understand usage patterns to improve features.</li>
-
-            <li><strong>To Display Advertisements:</strong> For non-Premium users, we display non-personalized ads using Google AdMob.</li>
-
-        </ul>
-
-
-
-        <h2>4. Data Storage and Synchronization</h2>
-
-        <ul>
-
-            <li><strong>Local Storage:</strong> For all users, all tactics and animations are stored by default **locally on your device**.</li>
-
-            <li><strong>Cloud Synchronization (Premium Feature):</strong> If you are a Premium user and logged in, your tactics and animations are also securely synchronized with our cloud backend (Supabase). **If you are not a Premium user or are not logged in, your data never leaves your device.**</li>
-
-        </ul>
-
-
-
-        <h2>5. Third-Party Services and Data Sharing</h2>
-
-        <p>We do not sell your personal data. We only share information with the following third-party service providers who are essential for the app to function:</p>
-
-        <ul>
-
-            <li><strong>Supabase:</strong> Our backend provider for user authentication (e.g., login) and cloud database (tactic/animation sync for Premium users).</li>
-
-            <li><strong>Google AdMob:</strong> Displays non-personalized advertisements to non-Premium users.</li>
-
-            <li><strong>Firebase (by Google):</strong> Provides app analytics and crash reporting to help us identify and fix bugs.</li>
-
-            <li><strong>Google Play & Apple App Store:</strong> Process all in-app purchases and subscriptions. We do not handle or store your payment information.</li>
-
-        </ul>
-
-        <p>We may also disclose your information if required by law.</p>
-
-
-        <h2>7. Your Rights and Data Deletion</h2>
-
-        <p>You have control over your data in the following ways:</p>
-
-        <ul>
-
-            <li><strong>Local Data:</strong> All tactics and animations stored locally on your device can be deleted at any time by clearing the app's data or uninstalling the app.</li>
-
-            <li><strong>Cloud Data & Account Deletion:</strong> If you have created an account, your account information (email) and any synced cloud data (tactics/animations) will remain on our servers even if you uninstall the app. **To request the permanent deletion of your account and all associated cloud data, please send an email to our support address.**</li>
-
-            <li><strong>Subscriptions:</strong> You can manage or cancel your Premium subscription at any time through your Google Play Store or Apple App Store account settings.</li>
-
-        </ul>
-
-
-
-        <h2>8. Children’s Privacy</h2>
-
-        <p>CoachPad is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
-
-        
-
-        <h2>9. Changes to This Privacy Policy</h2>
-
-        <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy in the app and updating the "Last Updated" date at the top of this page.</p>
-
-
-
-        <h2>10. Contact Us</h2>
-
-        <p class="contact">If you have any questions about this Privacy Policy or wish to request data deletion, please contact us at: <br>
-
-            <strong><a href="mailto:contact.metechi@gmail.com">contact.metechi@gmail.com</a></strong>
-
-        </p>
-
-    </div>
-
-
-
+  <main class="container">
+    <h1>CoachPad Privacy Policy</h1>
+    <p class="muted">Last Updated: March 31, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>
+      CoachPad (“app”, “we”, “our”, “us”) respects your privacy. This Privacy Policy explains
+      what data we collect, how we use it, and your rights when you use CoachPad.
+    </p>
+
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Account Information</h3>
+    <ul>
+      <li>
+        When you sign in (Email, Google, or Apple), we collect your email address and a unique user ID for authentication and account management.
+      </li>
+    </ul>
+
+    <h3>2.2 User-Created Content</h3>
+    <ul>
+      <li>
+        Tactics, animations, boards, and related content you create in the app.
+      </li>
+    </ul>
+
+    <h3>2.3 CoachHub Data</h3>
+    <ul>
+      <li>
+        If you use CoachHub features, we collect the content you upload/share there (such as posts, shared tactics, comments, or profile-related content).
+      </li>
+      <li>
+        Content you choose to share in CoachHub may be visible to other users according to feature settings.
+      </li>
+    </ul>
+
+    <h3>2.4 Microphone Recordings</h3>
+    <ul>
+      <li>
+        If you use microphone/voice recording features, we process and store audio you explicitly record inside the app.
+      </li>
+      <li>
+        Microphone access is used only when you trigger recording. CoachPad does not continuously listen in the background.
+      </li>
+    </ul>
+
+    <h3>2.5 Automatically Collected Data</h3>
+    <ul>
+      <li>
+        Device and app diagnostics (e.g., device model, OS version, crash logs, usage events) for stability and performance improvements.
+      </li>
+    </ul>
+
+    <h2>3. How We Use Information</h2>
+    <ul>
+      <li>To provide core app functionality and save/sync your content.</li>
+      <li>To authenticate users and manage subscriptions/premium access.</li>
+      <li>To operate CoachHub features and shared content workflows.</li>
+      <li>To support microphone-based features you choose to use.</li>
+      <li>To monitor errors and improve app quality using analytics/crash data.</li>
+    </ul>
+
+    <h2>4. Ads</h2>
+    <p>
+      CoachPad does not show third-party advertisements in the app.
+    </p>
+
+    <h2>5. Storage and Synchronization</h2>
+    <ul>
+      <li>
+        Local data is stored on your device.
+      </li>
+      <li>
+        If cloud sync is enabled for your account/features, selected data (including supported CoachHub and recording-related content) is securely stored on our backend (Supabase).
+      </li>
+    </ul>
+
+    <h2>6. Third-Party Services</h2>
+    <ul>
+      <li><strong>Supabase:</strong> Authentication and cloud database/sync.</li>
+      <li><strong>Firebase:</strong> Analytics and crash reporting.</li>
+      <li><strong>Google Play / Apple App Store:</strong> In-app purchases and subscriptions processing.</li>
+    </ul>
+    <p>
+      We do not sell your personal data.
+    </p>
+
+    <h2>7. Data Retention and Deletion</h2>
+    <ul>
+      <li>
+        Local data can be removed by clearing app data or uninstalling the app.
+      </li>
+      <li>
+        Account and synced cloud data may remain until deletion is requested.
+      </li>
+      <li>
+        To request permanent account and cloud data deletion, email us at the address below.
+      </li>
+    </ul>
+
+    <h2>8. Children’s Privacy</h2>
+    <p>
+      CoachPad is not intended for children under 13. We do not knowingly collect personal data from children under 13.
+    </p>
+
+    <h2>9. Security</h2>
+    <p>
+      We use reasonable technical and organizational measures to protect your data. No system is 100% secure, but we continuously work to improve security.
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Updates will be posted in the app and/or on this page with a revised “Last Updated” date.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p class="contact">
+      For privacy questions or deletion requests:<br />
+      <strong><a href="mailto:contact.metechi@gmail.com">contact.metechi@gmail.com</a></strong>
+    </p>
+  </main>
 </body>
-
 </html>
