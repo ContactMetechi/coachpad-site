@@ -1,16 +1,15 @@
 {
-  "functions": {
-    "api/home.js": {
-      "includeFiles": [
-        "index.html",
-        "markdown/home.md"
-      ]
-    }
-  },
   "rewrites": [
     {
       "source": "/",
-      "destination": "/api/home"
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": ".*text/markdown.*"
+        }
+      ],
+      "destination": "/markdown/home.md"
     }
   ],
   "headers": [
