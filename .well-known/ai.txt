@@ -1,0 +1,10 @@
+site: metechi.dev
+url: https://www.metechi.dev/
+title: Metechi
+policy: public-business-information
+contact: info@metechi.dev
+key_page: https://www.metechi.dev/
+key_page: https://www.metechi.dev/coachpad.html
+key_page: https://www.metechi.dev/infinite-flux.html
+key_page: https://www.metechi.dev/verve.html
+key_page: https://www.metechi.dev/swiftquote.html

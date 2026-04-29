@@ -1,0 +1,8 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Metechi",
+  "url": "https://www.metechi.dev/",
+  "description": "Metechi public website and product pages.",
+  "email": "info@metechi.dev"
+}

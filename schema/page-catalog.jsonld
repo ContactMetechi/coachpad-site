@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Metechi Key Pages",
+  "url": "https://www.metechi.dev/",
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "name": "Metechi – Developer Portfolio",
+      "url": "https://www.metechi.dev/",
+      "description": "Metechi"
+    },
+    {
+      "@type": "WebPage",
+      "name": "CoachPad - Tactical Board App",
+      "url": "https://www.metechi.dev/coachpad.html",
+      "description": "CoachPad"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Infinite Flux - Reflex Runner Game",
+      "url": "https://www.metechi.dev/infinite-flux.html",
+      "description": "Infinite Flux"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Verve – Elite Dating & Premium Connections",
+      "url": "https://www.metechi.dev/verve.html",
+      "description": "Verve is an elite dating and connection platform focused on genuine compatibility, privacy, and premium networking."
+    },
+    {
+      "@type": "WebPage",
+      "name": "SwiftQuote - Quotes & Invoices Made Easy",
+      "url": "https://www.metechi.dev/swiftquote.html",
+      "description": "SwiftQuote"
+    }
+  ]
+}

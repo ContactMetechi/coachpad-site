@@ -1,0 +1,13 @@
+﻿{
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "<https://www.metechi.dev/llms.txt>; rel=\"service-doc\"; type=\"text/plain\", <https://www.metechi.dev/llms-full.txt>; rel=\"service-doc\"; type=\"text/plain\", <https://www.metechi.dev/sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", <https://www.metechi.dev/.well-known/ai.txt>; rel=\"service-meta\"; type=\"text/plain\", <https://www.metechi.dev/.well-known/agent-card.json>; rel=\"service-meta\"; type=\"application/json\", <https://www.metechi.dev/.well-known/agent-skills/index.json>; rel=\"service-meta\"; type=\"application/json\""
+        }
+      ]
+    }
+  ]
+}

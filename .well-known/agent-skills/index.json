@@ -1,0 +1,114 @@
+{
+  "skills": [
+    {
+      "id": "page-home-27f4cc6d",
+      "name": "Metechi – Developer Portfolio",
+      "description": "Metechi",
+      "url": "https://www.metechi.dev/",
+      "tags": [
+        "metechi.dev",
+        "page",
+        "webpage"
+      ],
+      "examples": [
+        "Summarize Metechi – Developer Portfolio",
+        "What is on https://www.metechi.dev/?"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "text/markdown"
+      ]
+    },
+    {
+      "id": "page-coachpad-html-6245715f",
+      "name": "CoachPad - Tactical Board App",
+      "description": "CoachPad",
+      "url": "https://www.metechi.dev/coachpad.html",
+      "tags": [
+        "metechi.dev",
+        "page",
+        "product"
+      ],
+      "examples": [
+        "Summarize CoachPad - Tactical Board App",
+        "What is on https://www.metechi.dev/coachpad.html?"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "text/markdown"
+      ]
+    },
+    {
+      "id": "page-infinite-flux-html-59f7cb57",
+      "name": "Infinite Flux - Reflex Runner Game",
+      "description": "Infinite Flux",
+      "url": "https://www.metechi.dev/infinite-flux.html",
+      "tags": [
+        "metechi.dev",
+        "page",
+        "product"
+      ],
+      "examples": [
+        "Summarize Infinite Flux - Reflex Runner Game",
+        "What is on https://www.metechi.dev/infinite-flux.html?"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "text/markdown"
+      ]
+    },
+    {
+      "id": "page-verve-html-83d1eaf5",
+      "name": "Verve – Elite Dating & Premium Connections",
+      "description": "Verve is an elite dating and connection platform focused on genuine compatibility, privacy, and premium networking.",
+      "url": "https://www.metechi.dev/verve.html",
+      "tags": [
+        "metechi.dev",
+        "page",
+        "product"
+      ],
+      "examples": [
+        "Summarize Verve – Elite Dating & Premium Connections",
+        "What is on https://www.metechi.dev/verve.html?"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "text/markdown"
+      ]
+    },
+    {
+      "id": "page-swiftquote-html-2fee1e7f",
+      "name": "SwiftQuote - Quotes & Invoices Made Easy",
+      "description": "SwiftQuote",
+      "url": "https://www.metechi.dev/swiftquote.html",
+      "tags": [
+        "metechi.dev",
+        "page",
+        "product"
+      ],
+      "examples": [
+        "Summarize SwiftQuote - Quotes & Invoices Made Easy",
+        "What is on https://www.metechi.dev/swiftquote.html?"
+      ],
+      "inputModes": [
+        "text/plain"
+      ],
+      "outputModes": [
+        "text/plain",
+        "text/markdown"
+      ]
+    }
+  ]
+}
