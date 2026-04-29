@@ -1,4 +1,25 @@
 {
+  "routes": [
+    {
+      "src": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": {
+            "re": ".*text/markdown.*"
+          }
+        }
+      ],
+      "headers": {
+        "Content-Type": "text/markdown; charset=utf-8",
+        "Vary": "Accept",
+        "Cache-Control": "no-store",
+        "Link": "<https://www.metechi.dev/llms.txt>; rel=\"service-doc\"; type=\"text/plain\", <https://www.metechi.dev/llms-full.txt>; rel=\"service-doc\"; type=\"text/plain\", <https://www.metechi.dev/sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", <https://www.metechi.dev/.well-known/ai.txt>; rel=\"service-meta\"; type=\"text/plain\", <https://www.metechi.dev/.well-known/agent-card.json>; rel=\"service-meta\"; type=\"application/json\", <https://www.metechi.dev/.well-known/agent-skills/index.json>; rel=\"service-meta\"; type=\"application/json\""
+      },
+      "dest": "/markdown/home.md"
+    }
+  ],
   "rewrites": [
     {
       "source": "/",
