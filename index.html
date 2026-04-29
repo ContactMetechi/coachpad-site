@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Metechi - Developer Portfolio</title>
-  <meta name="description" content="Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, Verve, and SwiftQuote." />
+  <title>Metechi - Web and Mobile Product Portfolio</title>
+  <meta name="description" content="Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve, with support, privacy, platform, and product details." />
   <link rel="canonical" href="https://www.metechi.dev/" />
   <script type="application/ld+json">
     {
@@ -15,9 +15,17 @@
           "@id": "https://www.metechi.dev/#organization",
           "name": "Metechi",
           "url": "https://www.metechi.dev/",
-          "description": "Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
+          "description": "Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
           "email": "info@metechi.dev",
           "logo": "https://www.metechi.dev/assets/metechi-logo.png",
+          "knowsAbout": [
+            "mobile applications",
+            "web applications",
+            "sports coaching software",
+            "mobile games",
+            "business productivity software",
+            "dating and networking applications"
+          ],
           "contactPoint": {
             "@type": "ContactPoint",
             "email": "info@metechi.dev",
@@ -32,7 +40,7 @@
           "@id": "https://www.metechi.dev/#website",
           "name": "Metechi",
           "url": "https://www.metechi.dev/",
-          "description": "Official Metechi portfolio for practical web and mobile applications.",
+          "description": "Official Metechi portfolio for practical web and mobile products.",
           "inLanguage": "en",
           "dateModified": "2026-04-29",
           "publisher": {
@@ -42,9 +50,9 @@
         {
           "@type": "WebPage",
           "@id": "https://www.metechi.dev/#webpage",
-          "name": "Metechi - Developer Portfolio",
+          "name": "Metechi - Web and Mobile Product Portfolio",
           "url": "https://www.metechi.dev/",
-          "description": "Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
+          "description": "Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
           "isPartOf": {
             "@id": "https://www.metechi.dev/#website"
           },
@@ -68,7 +76,12 @@
                 "applicationCategory": "SportsApplication",
                 "operatingSystem": "iOS, Android, Web",
                 "description": "Tactical board app for coaches to create, animate, and share team tactics.",
-                "image": "https://www.metechi.dev/assets/logo.png"
+                "image": "https://www.metechi.dev/assets/logo.png",
+                "dateModified": "2026-04-29",
+                "sameAs": [
+                  "https://play.google.com/store/apps/details?id=com.coachpad",
+                  "https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315"
+                ]
               }
             },
             {
@@ -81,7 +94,8 @@
                 "applicationCategory": "GameApplication",
                 "operatingSystem": "iOS, Android",
                 "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades.",
-                "image": "https://www.metechi.dev/assets/infinite-flux-logo.png"
+                "image": "https://www.metechi.dev/assets/infinite-flux-logo.png",
+                "dateModified": "2026-04-29"
               }
             },
             {
@@ -94,7 +108,8 @@
                 "applicationCategory": "BusinessApplication",
                 "operatingSystem": "iOS, Android",
                 "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, CRM, catalogs, and dashboard tools.",
-                "image": "https://www.metechi.dev/assets/swiftquote-logo.png"
+                "image": "https://www.metechi.dev/assets/swiftquote-logo.png",
+                "dateModified": "2026-04-29"
               }
             },
             {
@@ -107,7 +122,11 @@
                 "applicationCategory": "LifestyleApplication",
                 "operatingSystem": "iOS, Android",
                 "description": "Premium dating and networking app focused on privacy, compatibility, and meaningful connections.",
-                "image": "https://www.metechi.dev/assets/verve-logo.png"
+                "image": "https://www.metechi.dev/assets/verve-logo.png",
+                "dateModified": "2026-04-29",
+                "sameAs": [
+                  "https://play.google.com/store/apps/details?id=com.raven.verve"
+                ]
               }
             }
           ]
@@ -118,10 +137,10 @@
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "What is Metechi?",
+          "name": "What is Metechi?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Metechi is a portfolio and product site for independent web and mobile applications."
+                "text": "Metechi is a portfolio and product site for independent web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve."
               }
             },
             {
@@ -219,6 +238,14 @@
       border-radius: 14px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     }
+    .fact-list {
+      background: #ffffff;
+      padding: 18px 22px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      line-height: 1.8;
+      margin-top: 16px;
+    }
 
     .project-card {
       display: flex;
@@ -294,12 +321,19 @@
   </header>
 
   <section>
-    <h2>About Me</h2>
+    <h2>About Metechi</h2>
     <p>
-      I'm a software developer who enjoys turning ideas into well-crafted digital
-      products. My focus is on clean design, intuitive user experience, and
-      maintainable code. I'm constantly learning new technologies and refining
-      my skills to build better solutions.
+      Metechi is a web and mobile product portfolio for practical applications
+      with clear user needs. The current product set includes CoachPad for
+      coaches, Infinite Flux for mobile arcade players, SwiftQuote for
+      freelancers and small businesses, and Verve for premium dating and
+      intentional networking.
+    </p>
+    <p>
+      The site is maintained as the public source of truth for product
+      descriptions, platform availability, support contact details, privacy
+      pages, app listing links, AI discovery files, and structured product
+      context.
     </p>
   </section>
 
@@ -390,6 +424,12 @@
       users, search engines, and AI agents can verify what each app does before
       citing or summarizing it.
     </p>
+    <ul class="fact-list">
+      <li><strong>Public contact:</strong> info@metechi.dev for support and business inquiries.</li>
+      <li><strong>Verified product listings:</strong> CoachPad links to Google Play and the App Store; Verve links to Google Play.</li>
+      <li><strong>Discovery files:</strong> llms.txt, llms-full.txt, ai.txt, sitemap.xml, robots.txt, agent card, and agent skills are published.</li>
+      <li><strong>Content freshness:</strong> product and policy pages were updated on April 29, 2026.</li>
+    </ul>
   </section>
 
   <section>

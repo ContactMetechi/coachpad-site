@@ -1,22 +1,29 @@
 # Metechi
-> Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve.
+> Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve.
 
 Canonical: https://www.metechi.dev/
 Contact: info@metechi.dev
 Last updated: 2026-04-29
 
 ## Core Pages
-- [Metechi - Developer Portfolio](https://www.metechi.dev/) - Product portfolio, support links, and public Metechi overview.
-- [CoachPad - Tactical Board App](https://www.metechi.dev/coachpad.html) - Tactical board app for coaches to create, animate, and share team tactics.
-- [Infinite Flux - Reflex Runner Game](https://www.metechi.dev/infinite-flux.html) - Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades.
-- [SwiftQuote - Quotes & Invoices Made Easy](https://www.metechi.dev/swiftquote.html) - Quote and invoice tool for freelancers and small businesses.
-- [Verve - Elite Dating & Premium Connections](https://www.metechi.dev/verve.html) - Premium dating and networking app focused on privacy, compatibility, and meaningful connections.
+- [Metechi - Web and Mobile Product Portfolio](https://www.metechi.dev/) - Product portfolio, support links, privacy references, product status, and public Metechi overview.
+- [CoachPad - Tactical Board App for Coaches](https://www.metechi.dev/coachpad.html) - Tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions.
+- [Infinite Flux - Reflex Runner Game for Mobile Players](https://www.metechi.dev/infinite-flux.html) - Mobile reflex runner focused on lane switching, timing, focus energy, streak control, upgrades, and arcade scoring.
+- [SwiftQuote - Quote and Invoice App for Freelancers](https://www.metechi.dev/swiftquote.html) - Quote and invoice app for freelancers and small businesses with PDF sharing, customer management, catalogs, and income tracking.
+- [Verve - Premium Dating and Networking App](https://www.metechi.dev/verve.html) - Premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections.
+- [Metechi Privacy Policy](https://www.metechi.dev/privacy.html) - Website privacy overview and links to product-specific privacy policies.
 
 ## Product Summary
 - CoachPad: sports coaching workflow, tactic animation, formation planning, and team communication.
 - Infinite Flux: mobile arcade gameplay with lane switching, shards, streaks, focus energy, and upgrades.
 - SwiftQuote: quotes, invoices, PDF sharing, customer management, product catalogs, and income tracking.
 - Verve: privacy-focused dating and premium social networking with compatibility-driven matching.
+
+## Public Verification
+- CoachPad links to Google Play and the App Store.
+- Verve links to Google Play.
+- Product pages include platform, support, privacy, and last-updated context.
+- Support contact: info@metechi.dev.
 
 ## Discovery Files
 - Sitemap: https://www.metechi.dev/sitemap.xml

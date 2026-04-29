@@ -7,33 +7,39 @@
   "hasPart": [
     {
       "@type": "WebPage",
-      "name": "Metechi - Developer Portfolio",
+      "name": "Metechi - Web and Mobile Product Portfolio",
       "url": "https://www.metechi.dev/",
-      "description": "Product portfolio, support links, FAQ, and public Metechi overview."
+      "description": "Product portfolio, support links, privacy references, product status, FAQ, and public Metechi overview."
     },
     {
       "@type": "WebPage",
-      "name": "CoachPad - Tactical Board App",
+      "name": "CoachPad - Tactical Board App for Coaches",
       "url": "https://www.metechi.dev/coachpad.html",
-      "description": "Tactical board app for coaches to create, animate, and share team tactics."
+      "description": "Tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions."
     },
     {
       "@type": "WebPage",
-      "name": "Infinite Flux - Reflex Runner Game",
+      "name": "Infinite Flux - Reflex Runner Game for Mobile Players",
       "url": "https://www.metechi.dev/infinite-flux.html",
-      "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades."
+      "description": "Mobile reflex runner focused on lane switching, timing, focus energy, streak control, upgrades, and arcade scoring."
     },
     {
       "@type": "WebPage",
-      "name": "SwiftQuote - Quotes & Invoices Made Easy",
+      "name": "SwiftQuote - Quote and Invoice App for Freelancers",
       "url": "https://www.metechi.dev/swiftquote.html",
-      "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, CRM, catalogs, and dashboard tools."
+      "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, customer management, catalogs, and income tracking."
     },
     {
       "@type": "WebPage",
-      "name": "Verve - Elite Dating & Premium Connections",
+      "name": "Verve - Premium Dating and Networking App",
       "url": "https://www.metechi.dev/verve.html",
-      "description": "Premium dating and networking app focused on privacy, compatibility, and meaningful connections."
+      "description": "Premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections."
+    },
+    {
+      "@type": "WebPage",
+      "name": "Metechi Privacy Policy",
+      "url": "https://www.metechi.dev/privacy.html",
+      "description": "Privacy overview for the Metechi website, public product pages, support contact paths, and product-specific privacy policy references."
     }
   ]
 }

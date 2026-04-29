@@ -2,8 +2,8 @@
   "skills": [
     {
       "id": "page-home-27f4cc6d",
-      "name": "Metechi - Developer Portfolio",
-      "description": "Overview of Metechi apps, support links, product pages, FAQ, and discovery files.",
+      "name": "Metechi - Web and Mobile Product Portfolio",
+      "description": "Overview of Metechi products, support links, privacy references, product status, FAQ, and discovery files.",
       "url": "https://www.metechi.dev/",
       "tags": [
         "metechi.dev",
@@ -11,7 +11,7 @@
         "webpage"
       ],
       "examples": [
-        "Summarize Metechi - Developer Portfolio",
+        "Summarize Metechi - Web and Mobile Product Portfolio",
         "What products are listed on https://www.metechi.dev/?"
       ],
       "inputModes": [
@@ -24,8 +24,8 @@
     },
     {
       "id": "page-coachpad-html-6245715f",
-      "name": "CoachPad - Tactical Board App",
-      "description": "Tactical board app for coaches to create, animate, and share team tactics.",
+      "name": "CoachPad - Tactical Board App for Coaches",
+      "description": "Tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions.",
       "url": "https://www.metechi.dev/coachpad.html",
       "tags": [
         "metechi.dev",
@@ -33,7 +33,7 @@
         "product"
       ],
       "examples": [
-        "Summarize CoachPad - Tactical Board App",
+        "Summarize CoachPad - Tactical Board App for Coaches",
         "What platforms does CoachPad support?"
       ],
       "inputModes": [
@@ -46,8 +46,8 @@
     },
     {
       "id": "page-infinite-flux-html-59f7cb57",
-      "name": "Infinite Flux - Reflex Runner Game",
-      "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, quests, and upgrades.",
+      "name": "Infinite Flux - Reflex Runner Game for Mobile Players",
+      "description": "Mobile reflex runner focused on lane switching, timing, focus energy, streak control, upgrades, and arcade scoring.",
       "url": "https://www.metechi.dev/infinite-flux.html",
       "tags": [
         "metechi.dev",
@@ -55,7 +55,7 @@
         "product"
       ],
       "examples": [
-        "Summarize Infinite Flux - Reflex Runner Game",
+        "Summarize Infinite Flux - Reflex Runner Game for Mobile Players",
         "What is the core gameplay of Infinite Flux?"
       ],
       "inputModes": [
@@ -68,8 +68,8 @@
     },
     {
       "id": "page-swiftquote-html-2fee1e7f",
-      "name": "SwiftQuote - Quotes & Invoices Made Easy",
-      "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, CRM, catalogs, and dashboard tools.",
+      "name": "SwiftQuote - Quote and Invoice App for Freelancers",
+      "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, customer management, catalogs, and income tracking.",
       "url": "https://www.metechi.dev/swiftquote.html",
       "tags": [
         "metechi.dev",
@@ -77,7 +77,7 @@
         "product"
       ],
       "examples": [
-        "Summarize SwiftQuote - Quotes & Invoices Made Easy",
+        "Summarize SwiftQuote - Quote and Invoice App for Freelancers",
         "What business workflows does SwiftQuote support?"
       ],
       "inputModes": [
@@ -90,8 +90,8 @@
     },
     {
       "id": "page-verve-html-83d1eaf5",
-      "name": "Verve - Elite Dating & Premium Connections",
-      "description": "Premium dating and networking app focused on privacy, compatibility, and meaningful connections.",
+      "name": "Verve - Premium Dating and Networking App",
+      "description": "Premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections.",
       "url": "https://www.metechi.dev/verve.html",
       "tags": [
         "metechi.dev",
@@ -99,7 +99,7 @@
         "product"
       ],
       "examples": [
-        "Summarize Verve - Elite Dating & Premium Connections",
+        "Summarize Verve - Premium Dating and Networking App",
         "What does Verve emphasize for users?"
       ],
       "inputModes": [

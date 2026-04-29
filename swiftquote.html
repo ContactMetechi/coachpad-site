@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SwiftQuote - Quotes & Invoices Made Easy</title>
-    <meta name="description" content="SwiftQuote helps freelancers and small businesses create quotes and invoices quickly.">
+  <title>SwiftQuote - Quote and Invoice App for Freelancers</title>
+    <meta name="description" content="SwiftQuote helps freelancers and small businesses create quotes, convert quotes to invoices, share PDFs, manage customers, and track income from mobile devices.">
   <link rel="canonical" href="https://www.metechi.dev/swiftquote.html" />
 <style>
     body {
@@ -86,6 +86,13 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       font-size: 1em;
     }
+    .fact-list {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 18px 22px;
+      line-height: 1.8;
+    }
     footer {
       margin-top: 60px;
       padding: 20px;
@@ -105,10 +112,17 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://www.metechi.dev/#organization",
       "name": "Metechi",
       "url": "https://www.metechi.dev/",
-      "description": "Metechi public website and product pages.",
-      "email": "info@metechi.dev"
+      "description": "Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
+      "email": "info@metechi.dev",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@metechi.dev",
+        "contactType": "product support",
+        "availableLanguage": "en"
+      }
     }
   </script>
   <script type="application/ld+json">
@@ -119,10 +133,19 @@
       "url": "https://www.metechi.dev/swiftquote.html",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "iOS, Android",
-      "description": "SwiftQuote helps freelancers and small businesses create quotes, convert them to invoices, share PDFs, and manage customers.",
+      "description": "SwiftQuote helps freelancers and small businesses create quotes, convert quotes to invoices, share PDFs, manage customers, and track income from mobile devices.",
       "image": "https://www.metechi.dev/assets/swiftquote-logo.png",
       "dateModified": "2026-04-29",
       "isAccessibleForFree": true,
+      "featureList": [
+        "Quote creation",
+        "Quote-to-invoice conversion",
+        "PDF sharing",
+        "Customer management",
+        "Product catalog management",
+        "Income dashboard",
+        "Multi-language support"
+      ],
       "publisher": {
         "@type": "Organization",
         "name": "Metechi",
@@ -134,9 +157,85 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": "https://www.metechi.dev/#website",
       "name": "Metechi",
       "url": "https://www.metechi.dev/",
       "description": "Official website for Metechi."
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.metechi.dev/swiftquote.html#webpage",
+          "name": "SwiftQuote - Quote and Invoice App for Freelancers",
+          "url": "https://www.metechi.dev/swiftquote.html",
+          "description": "SwiftQuote helps freelancers and small businesses create quotes, convert quotes to invoices, share PDFs, manage customers, and track income from mobile devices.",
+          "isPartOf": {
+            "@id": "https://www.metechi.dev/#website"
+          },
+          "about": {
+            "@type": "SoftwareApplication",
+            "name": "SwiftQuote",
+            "url": "https://www.metechi.dev/swiftquote.html"
+          },
+          "publisher": {
+            "@id": "https://www.metechi.dev/#organization"
+          },
+          "dateModified": "2026-04-29",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.metechi.dev/swiftquote.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Metechi",
+              "item": "https://www.metechi.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "SwiftQuote",
+              "item": "https://www.metechi.dev/swiftquote.html"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.metechi.dev/swiftquote.html#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Who is SwiftQuote for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SwiftQuote is designed for freelancers, contractors, and small businesses that need mobile quote, invoice, PDF sharing, and customer management tools."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What can SwiftQuote create?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SwiftQuote can create quotes, convert quotes into invoices, share PDFs, manage customer records, maintain product catalogs, and track income in a dashboard."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can users get support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Users can contact Metechi at info@metechi.dev for SwiftQuote support or product questions."
+              }
+            }
+          ]
+        }
+      ]
     }
   </script>
 </head>
@@ -160,6 +259,12 @@
       and freelancers. It helps you create, convert, and share documents quickly while keeping
       track of your customers and income in one simple dashboard.
     </p>
+    <p>
+      The product is intended for people who need to prepare commercial documents
+      without a heavy accounting system. A freelancer can build a quote, convert
+      accepted work into an invoice, share a PDF with a client, and keep customer
+      and product information organized for repeat jobs.
+    </p>
   </section>
 
   <section>
@@ -176,6 +281,17 @@
   </section>
 
   <section>
+    <h2>SwiftQuote at a Glance</h2>
+    <ul class="fact-list">
+      <li><strong>Audience:</strong> freelancers, contractors, solo operators, and small businesses.</li>
+      <li><strong>Core workflow:</strong> create quote, convert to invoice, export PDF, and share with a client.</li>
+      <li><strong>Business tools:</strong> customer records, product catalog, income dashboard, and statistics.</li>
+      <li><strong>Languages:</strong> Turkish, English, German, Spanish, French, Italian, and Russian.</li>
+      <li><strong>Support:</strong> product questions can be sent to info@metechi.dev.</li>
+    </ul>
+  </section>
+
+  <section>
     <h2>Audience and Support</h2>
     <p>
       SwiftQuote is designed for freelancers, contractors, and small businesses
@@ -187,6 +303,24 @@
       support context. Product inquiries can be sent to info@metechi.dev.
     </p>
     <p>Last updated: April 29, 2026.</p>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <p>
+      <strong>What problem does SwiftQuote solve?</strong> SwiftQuote helps small
+      operators produce quote and invoice documents quickly, then share them as
+      client-ready PDFs.
+    </p>
+    <p>
+      <strong>Does SwiftQuote include customer management?</strong> Yes. The
+      documented feature set includes CRM-style customer management and product
+      catalog support.
+    </p>
+    <p>
+      <strong>Where is privacy information published?</strong> SwiftQuote privacy
+      information is linked from this page at the product-specific privacy policy.
+    </p>
   </section>
 
   <footer>

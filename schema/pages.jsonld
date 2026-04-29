@@ -8,9 +8,9 @@
       "position": 1,
       "item": {
         "@type": "WebPage",
-        "name": "Metechi - Developer Portfolio",
+        "name": "Metechi - Web and Mobile Product Portfolio",
         "url": "https://www.metechi.dev/",
-        "description": "Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve."
+        "description": "Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve."
       }
     },
     {
@@ -18,9 +18,9 @@
       "position": 2,
       "item": {
         "@type": "WebPage",
-        "name": "CoachPad - Tactical Board App",
+        "name": "CoachPad - Tactical Board App for Coaches",
         "url": "https://www.metechi.dev/coachpad.html",
-        "description": "CoachPad is a tactical board app for coaches to create, animate, and share team tactics."
+        "description": "CoachPad is a tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions on iOS, Android, and web."
       }
     },
     {
@@ -28,9 +28,9 @@
       "position": 3,
       "item": {
         "@type": "WebPage",
-        "name": "Infinite Flux - Reflex Runner Game",
+        "name": "Infinite Flux - Reflex Runner Game for Mobile Players",
         "url": "https://www.metechi.dev/infinite-flux.html",
-        "description": "Infinite Flux is a reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades."
+        "description": "Infinite Flux is a mobile reflex runner game focused on lane switching, timing, focus energy, streak control, upgrades, and endless arcade scoring."
       }
     },
     {
@@ -38,9 +38,9 @@
       "position": 4,
       "item": {
         "@type": "WebPage",
-        "name": "SwiftQuote - Quotes & Invoices Made Easy",
+        "name": "SwiftQuote - Quote and Invoice App for Freelancers",
         "url": "https://www.metechi.dev/swiftquote.html",
-        "description": "SwiftQuote helps freelancers and small businesses create quotes, convert them to invoices, share PDFs, and manage customers."
+        "description": "SwiftQuote helps freelancers and small businesses create quotes, convert quotes to invoices, share PDFs, manage customers, and track income from mobile devices."
       }
     },
     {
@@ -48,9 +48,19 @@
       "position": 5,
       "item": {
         "@type": "WebPage",
-        "name": "Verve - Elite Dating & Premium Connections",
+        "name": "Verve - Premium Dating and Networking App",
         "url": "https://www.metechi.dev/verve.html",
-        "description": "Verve is a premium dating and networking app focused on privacy, compatibility, and meaningful connections."
+        "description": "Verve is a premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections on mobile."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "WebPage",
+        "name": "Metechi Privacy Policy",
+        "url": "https://www.metechi.dev/privacy.html",
+        "description": "Privacy overview for the Metechi website, public product pages, support contact paths, and product-specific privacy policy references."
       }
     }
   ]

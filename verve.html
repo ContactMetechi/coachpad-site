@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Verve - Elite Dating & Premium Connections</title>
-    <meta name="description" content="Verve is an elite dating and networking platform for premium, meaningful connections.">
+  <title>Verve - Premium Dating and Networking App</title>
+    <meta name="description" content="Verve is a premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections on mobile.">
   <link rel="canonical" href="https://www.metechi.dev/verve.html" />
   <style>
     body {
@@ -94,6 +94,17 @@
       line-height: 1.9;
       color: #cfcfcf;
     }
+    ul {
+      line-height: 1.9;
+      text-align: left;
+      color: #cfcfcf;
+    }
+    .fact-list {
+      background: #171a1f;
+      border: 1px solid #2a2d31;
+      border-radius: 12px;
+      padding: 20px 26px;
+    }
 
     footer {
       margin-top: 100px;
@@ -128,10 +139,17 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://www.metechi.dev/#organization",
       "name": "Metechi",
       "url": "https://www.metechi.dev/",
-      "description": "Metechi public website and product pages.",
-      "email": "info@metechi.dev"
+      "description": "Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
+      "email": "info@metechi.dev",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@metechi.dev",
+        "contactType": "product support",
+        "availableLanguage": "en"
+      }
     }
   </script>
   <script type="application/ld+json">
@@ -142,10 +160,16 @@
       "url": "https://www.metechi.dev/verve.html",
       "applicationCategory": "LifestyleApplication",
       "operatingSystem": "iOS, Android",
-      "description": "Verve is a premium dating and networking app focused on privacy, compatibility, and meaningful connections.",
+      "description": "Verve is a premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections on mobile.",
       "image": "https://www.metechi.dev/assets/verve-logo.png",
       "dateModified": "2026-04-29",
       "isAccessibleForFree": true,
+      "featureList": [
+        "Premium dating profile experience",
+        "Compatibility-focused discovery",
+        "Privacy-first product positioning",
+        "Intentional networking and conversation flow"
+      ],
       "sameAs": [
         "https://play.google.com/store/apps/details?id=com.raven.verve"
       ],
@@ -160,9 +184,85 @@
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
+      "@id": "https://www.metechi.dev/#website",
       "name": "Metechi",
       "url": "https://www.metechi.dev/",
       "description": "Official website for Metechi."
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.metechi.dev/verve.html#webpage",
+          "name": "Verve - Premium Dating and Networking App",
+          "url": "https://www.metechi.dev/verve.html",
+          "description": "Verve is a premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections on mobile.",
+          "isPartOf": {
+            "@id": "https://www.metechi.dev/#website"
+          },
+          "about": {
+            "@type": "SoftwareApplication",
+            "name": "Verve",
+            "url": "https://www.metechi.dev/verve.html"
+          },
+          "publisher": {
+            "@id": "https://www.metechi.dev/#organization"
+          },
+          "dateModified": "2026-04-29",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.metechi.dev/verve.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Metechi",
+              "item": "https://www.metechi.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Verve",
+              "item": "https://www.metechi.dev/verve.html"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.metechi.dev/verve.html#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Verve?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Verve is a premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where is Verve available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Verve has a public Google Play listing linked from this page. App Store release status is documented on the page."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can users contact support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Users can contact Metechi at info@metechi.dev for Verve support or product questions."
+              }
+            }
+          ]
+        }
+      ]
     }
   </script>
 </head>
@@ -192,6 +292,23 @@
       Verve is an exclusive dating and networking platform designed for individuals who value depth, discretion, and high-quality connections.
       Powered by intelligent compatibility matching and built with privacy-first architecture, Verve offers a distraction-free and premium environment for authentic relationships.
     </p>
+    <p>
+      The product page positions Verve as a mobile social experience for users
+      who want more intentional discovery than a high-volume swipe interface.
+      Its public context focuses on compatibility, privacy, and quality of
+      conversation rather than generic social browsing.
+    </p>
+  </section>
+
+  <section>
+    <h2>Verve at a Glance</h2>
+    <ul class="fact-list">
+      <li><strong>Audience:</strong> mobile users seeking premium dating and intentional networking.</li>
+      <li><strong>Core focus:</strong> privacy, compatibility, conversation quality, and meaningful connections.</li>
+      <li><strong>Platform context:</strong> Android public listing with iOS release status documented here.</li>
+      <li><strong>Policy reference:</strong> product-specific privacy policy linked from this page.</li>
+      <li><strong>Support:</strong> product questions can be sent to info@metechi.dev.</li>
+    </ul>
   </section>
 
   <section>
@@ -207,6 +324,23 @@
       info@metechi.dev.
     </p>
     <p>Last updated: April 29, 2026.</p>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <p>
+      <strong>What is Verve designed for?</strong> Verve is designed for premium
+      dating and networking where privacy, compatibility, and meaningful
+      conversations are central to the experience.
+    </p>
+    <p>
+      <strong>Where can users verify Verve?</strong> The public Google Play
+      listing linked in the header is the current external product reference.
+    </p>
+    <p>
+      <strong>Where is privacy information published?</strong> Verve privacy
+      information is linked from this page at the product-specific privacy policy.
+    </p>
   </section>
 
   <footer>
