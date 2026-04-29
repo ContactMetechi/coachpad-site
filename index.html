@@ -9,20 +9,73 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Metechi",
-      "url": "https://www.metechi.dev/",
-      "description": "Metechi public website and product pages.",
-      "email": "info@metechi.dev"
-    }
-  </script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Metechi",
-      "url": "https://www.metechi.dev/",
-      "description": "Official website for Metechi."
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://www.metechi.dev/#organization",
+          "name": "Metechi",
+          "url": "https://www.metechi.dev/",
+          "description": "Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
+          "email": "info@metechi.dev",
+          "logo": "https://www.metechi.dev/assets/metechi-logo.png"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://www.metechi.dev/#website",
+          "name": "Metechi",
+          "url": "https://www.metechi.dev/",
+          "description": "Official Metechi portfolio for practical web and mobile applications.",
+          "publisher": {
+            "@id": "https://www.metechi.dev/#organization"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Metechi Products",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "CoachPad",
+                "url": "https://www.metechi.dev/coachpad.html",
+                "applicationCategory": "SportsApplication"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "Infinite Flux",
+                "url": "https://www.metechi.dev/infinite-flux.html",
+                "applicationCategory": "GameApplication"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "SwiftQuote",
+                "url": "https://www.metechi.dev/swiftquote.html",
+                "applicationCategory": "BusinessApplication"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "Verve",
+                "url": "https://www.metechi.dev/verve.html",
+                "applicationCategory": "LifestyleApplication"
+              }
+            }
+          ]
+        }
+      ]
     }
   </script>
 
@@ -184,6 +237,21 @@
   </section>
 
   <section>
+    <h2>What Metechi Builds</h2>
+    <p>
+      Metechi focuses on practical software products with clear use cases:
+      coaching tools for teams, arcade games for mobile players, business tools
+      for quotes and invoices, and premium social products built around privacy
+      and meaningful connections. Each product page includes platform details,
+      support links, privacy information, and a concise feature summary.
+    </p>
+    <p>
+      Last updated: April 29, 2026. For product support or business inquiries,
+      contact <a href="mailto:info@metechi.dev">info@metechi.dev</a>.
+    </p>
+  </section>
+
+  <section>
     <h2>My Applications</h2>
     <ul class="projects">
 
@@ -224,6 +292,22 @@
       </li>
 
     </ul>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <p>
+      <strong>What is Metechi?</strong> Metechi is a portfolio and product site
+      for independent web and mobile applications.
+    </p>
+    <p>
+      <strong>Which products are listed?</strong> The site currently lists
+      CoachPad, Infinite Flux, SwiftQuote, and Verve.
+    </p>
+    <p>
+      <strong>Where can users find policies?</strong> Product-specific privacy
+      policy pages are linked from each application page.
+    </p>
   </section>
 
   <footer>

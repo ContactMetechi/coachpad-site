@@ -8,9 +8,9 @@
       "position": 1,
       "item": {
         "@type": "WebPage",
-        "name": "Metechi – Developer Portfolio",
+        "name": "Metechi - Developer Portfolio",
         "url": "https://www.metechi.dev/",
-        "description": "Metechi"
+        "description": "Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve."
       }
     },
     {
@@ -20,7 +20,7 @@
         "@type": "WebPage",
         "name": "CoachPad - Tactical Board App",
         "url": "https://www.metechi.dev/coachpad.html",
-        "description": "CoachPad"
+        "description": "CoachPad is a tactical board app for coaches to create, animate, and share team tactics."
       }
     },
     {
@@ -30,7 +30,7 @@
         "@type": "WebPage",
         "name": "Infinite Flux - Reflex Runner Game",
         "url": "https://www.metechi.dev/infinite-flux.html",
-        "description": "Infinite Flux"
+        "description": "Infinite Flux is a reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades."
       }
     },
     {
@@ -38,9 +38,9 @@
       "position": 4,
       "item": {
         "@type": "WebPage",
-        "name": "Verve – Elite Dating & Premium Connections",
-        "url": "https://www.metechi.dev/verve.html",
-        "description": "Verve is an elite dating and connection platform focused on genuine compatibility, privacy, and premium networking."
+        "name": "SwiftQuote - Quotes & Invoices Made Easy",
+        "url": "https://www.metechi.dev/swiftquote.html",
+        "description": "SwiftQuote helps freelancers and small businesses create quotes, convert them to invoices, share PDFs, and manage customers."
       }
     },
     {
@@ -48,9 +48,9 @@
       "position": 5,
       "item": {
         "@type": "WebPage",
-        "name": "SwiftQuote - Quotes & Invoices Made Easy",
-        "url": "https://www.metechi.dev/swiftquote.html",
-        "description": "SwiftQuote"
+        "name": "Verve - Elite Dating & Premium Connections",
+        "url": "https://www.metechi.dev/verve.html",
+        "description": "Verve is a premium dating and networking app focused on privacy, compatibility, and meaningful connections."
       }
     }
   ]

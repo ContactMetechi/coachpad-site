@@ -8,10 +8,11 @@
       "position": 1,
       "item": {
         "@type": "SoftwareApplication",
-        "name": "CoachPad - Tactical Board App",
+        "name": "CoachPad",
         "url": "https://www.metechi.dev/coachpad.html",
-        "applicationCategory": "SoftwareApplication",
-        "description": "CoachPad"
+        "applicationCategory": "SportsApplication",
+        "operatingSystem": "iOS, Android, Web",
+        "description": "Tactical board app for coaches to create, animate, and share team tactics."
       }
     },
     {
@@ -19,10 +20,11 @@
       "position": 2,
       "item": {
         "@type": "SoftwareApplication",
-        "name": "Infinite Flux - Reflex Runner Game",
+        "name": "Infinite Flux",
         "url": "https://www.metechi.dev/infinite-flux.html",
-        "applicationCategory": "SoftwareApplication",
-        "description": "Infinite Flux"
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "iOS, Android",
+        "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades."
       }
     },
     {
@@ -30,10 +32,11 @@
       "position": 3,
       "item": {
         "@type": "SoftwareApplication",
-        "name": "Verve – Elite Dating & Premium Connections",
-        "url": "https://www.metechi.dev/verve.html",
-        "applicationCategory": "SoftwareApplication",
-        "description": "Verve is an elite dating and connection platform focused on genuine compatibility, privacy, and premium networking."
+        "name": "SwiftQuote",
+        "url": "https://www.metechi.dev/swiftquote.html",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "iOS, Android",
+        "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, CRM, and dashboard tools."
       }
     },
     {
@@ -41,10 +44,11 @@
       "position": 4,
       "item": {
         "@type": "SoftwareApplication",
-        "name": "SwiftQuote - Quotes & Invoices Made Easy",
-        "url": "https://www.metechi.dev/swiftquote.html",
-        "applicationCategory": "SoftwareApplication",
-        "description": "SwiftQuote"
+        "name": "Verve",
+        "url": "https://www.metechi.dev/verve.html",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "iOS, Android",
+        "description": "Premium dating and networking app focused on privacy, compatibility, and meaningful connections."
       }
     }
   ]
