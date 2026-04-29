@@ -3,36 +3,37 @@
   "@type": "CollectionPage",
   "name": "Metechi Key Pages",
   "url": "https://www.metechi.dev/",
+  "dateModified": "2026-04-29",
   "hasPart": [
     {
       "@type": "WebPage",
-      "name": "Metechi – Developer Portfolio",
+      "name": "Metechi - Developer Portfolio",
       "url": "https://www.metechi.dev/",
-      "description": "Metechi"
+      "description": "Product portfolio, support links, FAQ, and public Metechi overview."
     },
     {
       "@type": "WebPage",
       "name": "CoachPad - Tactical Board App",
       "url": "https://www.metechi.dev/coachpad.html",
-      "description": "CoachPad"
+      "description": "Tactical board app for coaches to create, animate, and share team tactics."
     },
     {
       "@type": "WebPage",
       "name": "Infinite Flux - Reflex Runner Game",
       "url": "https://www.metechi.dev/infinite-flux.html",
-      "description": "Infinite Flux"
-    },
-    {
-      "@type": "WebPage",
-      "name": "Verve – Elite Dating & Premium Connections",
-      "url": "https://www.metechi.dev/verve.html",
-      "description": "Verve is an elite dating and connection platform focused on genuine compatibility, privacy, and premium networking."
+      "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades."
     },
     {
       "@type": "WebPage",
       "name": "SwiftQuote - Quotes & Invoices Made Easy",
       "url": "https://www.metechi.dev/swiftquote.html",
-      "description": "SwiftQuote"
+      "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, CRM, catalogs, and dashboard tools."
+    },
+    {
+      "@type": "WebPage",
+      "name": "Verve - Elite Dating & Premium Connections",
+      "url": "https://www.metechi.dev/verve.html",
+      "description": "Premium dating and networking app focused on privacy, compatibility, and meaningful connections."
     }
   ]
 }

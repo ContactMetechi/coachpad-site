@@ -1,5 +1,7 @@
-# Verve – Elite Dating & Premium Connections
+# Verve - Elite Dating & Premium Connections
 
 - URL: https://www.metechi.dev/verve.html
 - Type: product
-- Summary: Verve is an elite dating and connection platform focused on genuine compatibility, privacy, and premium networking.
+- Summary: Verve is a premium dating and networking app focused on privacy, compatibility, and meaningful connections.
+- Platforms: iOS, Android
+- Support: info@metechi.dev

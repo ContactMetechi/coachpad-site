@@ -6,5 +6,13 @@
   "url": "https://www.metechi.dev/",
   "description": "Metechi builds practical web and mobile applications including CoachPad, Infinite Flux, SwiftQuote, and Verve.",
   "email": "info@metechi.dev",
-  "logo": "https://www.metechi.dev/assets/metechi-logo.png"
+  "logo": "https://www.metechi.dev/assets/metechi-logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "info@metechi.dev",
+    "contactType": "product support",
+    "availableLanguage": [
+      "en"
+    ]
+  }
 }

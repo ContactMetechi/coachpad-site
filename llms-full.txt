@@ -1,22 +1,34 @@
 # Full AI Readiness Context - metechi.dev
 
-- Unified score: 33/100 (Critical)
-- GEO score: 35/100
-- Agent-ready score: 30/100
+Metechi is a public portfolio for independent web and mobile applications. The site exists to describe products, link support and privacy pages, and provide machine-readable discovery files for search engines and AI agents.
 
-## Site Pages Included
-- [Metechi – Developer Portfolio](https://www.metechi.dev/): Metechi
-- [CoachPad - Tactical Board App](https://www.metechi.dev/coachpad.html): CoachPad
-- [Infinite Flux - Reflex Runner Game](https://www.metechi.dev/infinite-flux.html): Infinite Flux
-- [Verve – Elite Dating & Premium Connections](https://www.metechi.dev/verve.html): Verve is an elite dating and connection platform focused on genuine compatibility, privacy, and premium networking.
-- [SwiftQuote - Quotes & Invoices Made Easy](https://www.metechi.dev/swiftquote.html): SwiftQuote
+## Site Entity
+- Name: Metechi
+- Canonical URL: https://www.metechi.dev/
+- Contact: info@metechi.dev
+- Last updated: 2026-04-29
+- Public products: CoachPad, Infinite Flux, SwiftQuote, Verve
 
-## Quick Wins
-- Unblock GPTBot in robots.txt.
-- Create and deploy llms.txt at the domain root.
-- Add Organization/WebSite JSON-LD with sameAs links.
-- Add missing meta description on homepage.
+## Included Pages
+- [Metechi - Developer Portfolio](https://www.metechi.dev/): portfolio overview, support contact, product list, FAQ, and discovery links.
+- [CoachPad - Tactical Board App](https://www.metechi.dev/coachpad.html): tactical board app for coaches, trainers, and teams.
+- [Infinite Flux - Reflex Runner Game](https://www.metechi.dev/infinite-flux.html): mobile reflex runner with lane switching, focus energy, streaks, quests, and upgrades.
+- [SwiftQuote - Quotes & Invoices Made Easy](https://www.metechi.dev/swiftquote.html): quote and invoice app for freelancers and small businesses.
+- [Verve - Elite Dating & Premium Connections](https://www.metechi.dev/verve.html): premium dating and networking app focused on privacy, compatibility, and meaningful connections.
 
-## Implementation Notes
-- Use deploy-ready files for direct deployment.
-- Use merge-safe files when your site already has custom configs.
+## Structured Data Expectations
+- Organization and WebSite JSON-LD are embedded in the rendered homepage.
+- Product pages include SoftwareApplication JSON-LD with category, platform, publisher, image, and support context.
+- Page inventory JSON-LD is available under /schema for reference and agent discovery.
+
+## Agent Discovery
+- llms.txt: https://www.metechi.dev/llms.txt
+- Sitemap: https://www.metechi.dev/sitemap.xml
+- AI policy: https://www.metechi.dev/.well-known/ai.txt
+- Agent card: https://www.metechi.dev/.well-known/agent-card.json
+- Agent skills index: https://www.metechi.dev/.well-known/agent-skills/index.json
+
+## Notes For Agents
+- Prefer canonical URLs on https://www.metechi.dev/.
+- Use product privacy pages for policy context.
+- Use info@metechi.dev for product support or business inquiries.

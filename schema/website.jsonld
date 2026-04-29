@@ -5,6 +5,8 @@
   "name": "Metechi",
   "url": "https://www.metechi.dev/",
   "description": "Official Metechi portfolio for practical web and mobile applications.",
+  "inLanguage": "en",
+  "dateModified": "2026-04-29",
   "publisher": {
     "@id": "https://www.metechi.dev/#organization"
   }

@@ -41,7 +41,8 @@
     .button-container {
       margin-top: 20px;
     }
-    a.button {
+    a.button,
+    span.button {
       display: inline-block;
       background: #ffffff;
       color: #0066cc;
@@ -56,6 +57,12 @@
     a.button:hover {
       background: #f1f1f1;
       transform: translateY(-2px);
+    }
+    span.button {
+      background: rgba(255, 255, 255, 0.22);
+      color: rgba(255, 255, 255, 0.95);
+      box-shadow: none;
+      cursor: default;
     }
     section {
       margin: 40px auto;
@@ -113,6 +120,9 @@
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "iOS, Android",
       "description": "SwiftQuote helps freelancers and small businesses create quotes, convert them to invoices, share PDFs, and manage customers.",
+      "image": "https://www.metechi.dev/assets/swiftquote-logo.png",
+      "dateModified": "2026-04-29",
+      "isAccessibleForFree": true,
       "publisher": {
         "@type": "Organization",
         "name": "Metechi",
@@ -138,8 +148,8 @@
     <p>Create professional quotes and invoices in minutes.</p>
 
     <div class="button-container">
-      <a href="#" class="button">Get it on Google Play</a>
-      <a href="#" class="button">Download on the App Store</a>
+      <span class="button">Google Play Release Coming Soon</span>
+      <span class="button">App Store Release Coming Soon</span>
     </div>
   </header>
 
@@ -172,13 +182,17 @@
       that need a lightweight way to prepare sales documents, manage clients,
       and share professional PDFs from mobile devices.
     </p>
+    <p>
+      The page documents current features, audience, privacy information, and
+      support context. Product inquiries can be sent to info@metechi.dev.
+    </p>
     <p>Last updated: April 29, 2026.</p>
   </section>
 
   <footer>
     <p>
       <a href="https://www.metechi.dev/swiftquote-privacy.html">Privacy Policy</a> |
-      <a href="mailto:contact.metechi@gmail.com">Contact</a>
+      <a href="mailto:info@metechi.dev">Contact</a>
     </p>
     <p>&copy; 2025 SwiftQuote. All rights reserved.</p>
   </footer>

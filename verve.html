@@ -49,7 +49,8 @@
       margin-top: 35px;
     }
 
-    a.button {
+    a.button,
+    span.button {
       display: inline-block;
       background: #D4AF37;
       color: #111418;
@@ -67,6 +68,13 @@
       background: #f3d46a;
       transform: translateY(-3px);
       box-shadow: 0 8px 20px rgba(212, 175, 55, 0.25);
+    }
+
+    span.button {
+      background: rgba(212, 175, 55, 0.18);
+      color: #D4AF37;
+      box-shadow: none;
+      cursor: default;
     }
 
     section {
@@ -135,6 +143,12 @@
       "applicationCategory": "LifestyleApplication",
       "operatingSystem": "iOS, Android",
       "description": "Verve is a premium dating and networking app focused on privacy, compatibility, and meaningful connections.",
+      "image": "https://www.metechi.dev/assets/verve-logo.png",
+      "dateModified": "2026-04-29",
+      "isAccessibleForFree": true,
+      "sameAs": [
+        "https://play.google.com/store/apps/details?id=com.raven.verve"
+      ],
       "publisher": {
         "@type": "Organization",
         "name": "Metechi",
@@ -164,7 +178,7 @@
     </p>
     
     <div class="button-container">
-      <a href="#" class="button">Download on the App Store</a>
+      <span class="button">App Store Release Coming Soon</span>
       <a href="https://play.google.com/store/apps/details?id=com.raven.verve" 
          class="button">
          Get it on Google Play
@@ -187,13 +201,18 @@
       networking experience. The product emphasizes privacy, compatibility
       matching, and a premium environment for higher-quality conversations.
     </p>
+    <p>
+      The public Google Play listing and linked privacy policy provide additional
+      product context. Support requests and product inquiries can be sent to
+      info@metechi.dev.
+    </p>
     <p>Last updated: April 29, 2026.</p>
   </section>
 
   <footer>
     <p>
       <a href="https://www.metechi.dev/verve-privacy.html">Privacy Policy</a> |
-      <a href="mailto:contact.metechi@gmail.com">Contact</a>
+      <a href="mailto:info@metechi.dev">Contact</a>
     </p>
     <p>&copy; 2026 Verve. All rights reserved.</p>
   </footer>

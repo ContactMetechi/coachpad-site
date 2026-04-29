@@ -12,7 +12,14 @@
         "url": "https://www.metechi.dev/coachpad.html",
         "applicationCategory": "SportsApplication",
         "operatingSystem": "iOS, Android, Web",
-        "description": "Tactical board app for coaches to create, animate, and share team tactics."
+        "description": "Tactical board app for coaches to create, animate, and share team tactics.",
+        "image": "https://www.metechi.dev/assets/logo.png",
+        "dateModified": "2026-04-29",
+        "isAccessibleForFree": true,
+        "sameAs": [
+          "https://play.google.com/store/apps/details?id=com.coachpad",
+          "https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315"
+        ]
       }
     },
     {
@@ -24,7 +31,10 @@
         "url": "https://www.metechi.dev/infinite-flux.html",
         "applicationCategory": "GameApplication",
         "operatingSystem": "iOS, Android",
-        "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades."
+        "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades.",
+        "image": "https://www.metechi.dev/assets/infinite-flux-logo.png",
+        "dateModified": "2026-04-29",
+        "isAccessibleForFree": true
       }
     },
     {
@@ -36,7 +46,10 @@
         "url": "https://www.metechi.dev/swiftquote.html",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "iOS, Android",
-        "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, CRM, and dashboard tools."
+        "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, CRM, and dashboard tools.",
+        "image": "https://www.metechi.dev/assets/swiftquote-logo.png",
+        "dateModified": "2026-04-29",
+        "isAccessibleForFree": true
       }
     },
     {
@@ -48,7 +61,13 @@
         "url": "https://www.metechi.dev/verve.html",
         "applicationCategory": "LifestyleApplication",
         "operatingSystem": "iOS, Android",
-        "description": "Premium dating and networking app focused on privacy, compatibility, and meaningful connections."
+        "description": "Premium dating and networking app focused on privacy, compatibility, and meaningful connections.",
+        "image": "https://www.metechi.dev/assets/verve-logo.png",
+        "dateModified": "2026-04-29",
+        "isAccessibleForFree": true,
+        "sameAs": [
+          "https://play.google.com/store/apps/details?id=com.raven.verve"
+        ]
       }
     }
   ]
