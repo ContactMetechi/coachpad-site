@@ -133,262 +133,272 @@
   </script>
 
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    * { box-sizing: border-box; }
+    html,
     body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f8f9fa;
-      color: #333;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    body {
+      margin: 0;
+      color: #162033;
+      background: #f4f7fb;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
       line-height: 1.6;
-      text-align: center;
     }
-
-    header {
-      background: linear-gradient(135deg, #0066cc, #004c99);
-      color: white;
-      padding: 60px 20px 70px;
-      border-bottom-left-radius: 32px;
-      border-bottom-right-radius: 32px;
-    }
-
-    .logo {
-      width: 128px;
-      height: auto;
-      object-fit: contain;
-      margin: 0 auto 24px;
-      display: block;
-    }
-
-    h1 {
-      font-size: 2.4rem;
-      margin-bottom: 16px;
-    }
-
-    header p {
-      max-width: 720px;
+    a { color: inherit; }
+    .shell {
+      width: min(1040px, calc(100% - 32px));
       margin: 0 auto;
-      font-size: 1.1rem;
-      opacity: 0.95;
     }
-
-    section {
-      max-width: 860px;
-      margin: 50px auto;
-      padding: 0 20px;
-      text-align: left;
-    }
-
-    h2 {
-      color: #0066cc;
-      margin-bottom: 16px;
-      font-size: 1.6rem;
-    }
-
-    section p {
-      font-size: 1.05rem;
-    }
-
-    .projects {
-      list-style: none;
-      margin-top: 20px;
-      display: grid;
-      gap: 16px;
-    }
-
-    .projects li {
-      background: #ffffff;
-      padding: 18px 20px;
-      border-radius: 14px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-    }
-    .fact-list {
-      background: #ffffff;
-      padding: 18px 22px;
-      border-radius: 14px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-      line-height: 1.8;
-      margin-top: 16px;
-    }
-
-    .project-card {
+    .nav {
+      min-height: 72px;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       gap: 16px;
     }
-
-    .project-logo {
-      width: 64px;
-      height: 64px;
-      border-radius: 16px;
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: #162033;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .brand img {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
       object-fit: cover;
-      flex: 0 0 auto;
     }
-
-    .project-copy {
-      flex: 1;
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
     }
-
-    .project-copy a {
-      color: #0066cc;
-      font-weight: bold;
+    .nav-links a,
+    .button {
+      border: 1px solid #d8e2ef;
+      border-radius: 10px;
+      padding: 10px 14px;
+      color: #243246;
+      background: #ffffff;
       text-decoration: none;
-      font-size: 1.05rem;
+      font-weight: 700;
+      font-size: 0.92rem;
     }
-
-    .project-copy a:hover {
-      text-decoration: underline;
+    .hero {
+      padding: 56px 0 34px;
+      display: grid;
+      gap: 18px;
     }
-
-    .project-copy p {
-      margin: 6px 0 0;
-      font-size: 1rem;
+    .eyebrow {
+      color: #0b63ce;
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
     }
-
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      max-width: 720px;
+      margin-bottom: 16px;
+      font-size: clamp(2.4rem, 6vw, 4.4rem);
+      line-height: 1;
+      letter-spacing: -0.02em;
+      overflow-wrap: break-word;
+    }
+    .hero p {
+      max-width: 650px;
+      margin-bottom: 0;
+      color: #536176;
+      font-size: 1.1rem;
+      overflow-wrap: break-word;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+    .button.primary {
+      color: #ffffff;
+      border-color: #0b63ce;
+      background: #0b63ce;
+      box-shadow: 0 12px 26px rgba(11, 99, 206, 0.18);
+    }
+    .section {
+      padding: 30px 0;
+    }
+    .section-head {
+      margin-bottom: 16px;
+    }
+    h2 {
+      margin-bottom: 8px;
+      color: #162033;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      line-height: 1.1;
+    }
+    .section-head p,
+    .panel p,
+    .product p {
+      color: #617086;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .product,
+    .panel {
+      border: 1px solid #dfe8f3;
+      border-radius: 16px;
+      background: #ffffff;
+      box-shadow: 0 18px 42px rgba(22, 32, 51, 0.08);
+    }
+    .product {
+      min-height: 220px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-decoration: none;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+    .product:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 22px 52px rgba(22, 32, 51, 0.12);
+    }
+    .product img {
+      width: 58px;
+      height: 58px;
+      margin-bottom: 18px;
+      border-radius: 14px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin-bottom: 8px;
+      color: #162033;
+      font-size: 1.35rem;
+    }
+    .meta {
+      margin-top: auto;
+      color: #0b63ce;
+      font-weight: 800;
+      font-size: 0.92rem;
+    }
+    .panel {
+      padding: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
     footer {
-      margin-top: 70px;
-      padding: 30px 20px;
-      font-size: 0.9rem;
-      color: #555;
+      padding: 36px 0 44px;
+      color: #6d7a8d;
+      font-size: 0.92rem;
     }
-
     footer a {
-      color: #0066cc;
+      color: #0b63ce;
+      font-weight: 700;
       text-decoration: none;
-      margin: 0 10px;
     }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    @media (max-width: 640px) {
-      .project-card {
-        align-items: flex-start;
+    @media (max-width: 760px) {
+      .shell {
+        width: min(1040px, calc(100% - 64px));
       }
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 16px 0;
+      }
+      h1 {
+        font-size: 2.15rem;
+        max-width: 11ch;
+      }
+      .hero p,
+      .section-head p {
+        max-width: 31ch;
+      }
+      .actions {
+        width: 100%;
+        max-width: 100%;
+      }
+      .hero { padding-top: 28px; }
+      .products { grid-template-columns: 1fr; }
+      .panel {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .button { width: 100%; text-align: center; }
     }
   </style>
 </head>
 <body>
+  <nav class="shell nav">
+    <a class="brand" href="index.html">
+      <img src="assets/metechi-logo.png" alt="Metechi Logo" />
+      <span>Metechi</span>
+    </a>
+    <div class="nav-links">
+      <a href="#products">Products</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:info@metechi.dev">Contact</a>
+    </div>
+  </nav>
 
-  <header>
-    <img src="assets/metechi-logo.png" alt="Metechi Logo" class="logo" />
-    <h1>Metechi</h1>
+  <header class="shell hero">
+    <span class="eyebrow">Independent product studio</span>
+    <h1>Focused apps for teams and players.</h1>
     <p>
-      I build clean, practical web and mobile applications focused on usability,
-      performance, and simplicity.
+      Metechi builds practical web and mobile products with clear interfaces,
+      simple support paths, and no unnecessary noise.
     </p>
+    <div class="actions">
+      <a class="button primary" href="#products">View products</a>
+      <a class="button" href="mailto:info@metechi.dev">Contact</a>
+    </div>
   </header>
 
-  <section>
-    <h2>About Metechi</h2>
-    <p>
-      Metechi is a web and mobile product site for practical applications
-      with clear user needs. The current product set includes CoachPad for
-      coaches and Infinite Flux for mobile arcade players.
-    </p>
-    <p>
-      The site is maintained as the public source of truth for product
-      descriptions, platform availability, support contact details, privacy
-      pages, app listing links, AI discovery files, and structured product
-      context.
-    </p>
-  </section>
+  <main class="shell">
+    <section class="section" id="products">
+      <div class="section-head">
+        <h2>Products</h2>
+        <p>Two active products, each with a dedicated page and privacy information.</p>
+      </div>
+      <div class="products">
+        <a class="product" href="coachpad.html">
+          <img src="assets/logo.png" alt="CoachPad Logo" />
+          <h3>CoachPad</h3>
+          <p>A tactical board for coaches to create, animate, and share team tactics.</p>
+          <span class="meta">Open CoachPad</span>
+        </a>
+        <a class="product" href="infinite-flux.html">
+          <img src="assets/infinite-flux-logo.png" alt="Infinite Flux Logo" />
+          <h3>Infinite Flux</h3>
+          <p>A reflex runner built around lane switching, timing, focus, and streaks.</p>
+          <span class="meta">Open Infinite Flux</span>
+        </a>
+      </div>
+    </section>
 
-  <section>
-    <h2>What Metechi Builds</h2>
-    <p>
-      Metechi focuses on practical software products with clear use cases:
-      coaching tools for teams and arcade games for mobile players.
-      Each product page includes platform details,
-      support links, privacy information, and a concise feature summary.
-    </p>
-    <p>
-      Last updated: April 29, 2026. For product support or business inquiries,
-      contact <a href="mailto:info@metechi.dev">info@metechi.dev</a>.
-    </p>
-  </section>
-
-  <section>
-    <h2>Applications</h2>
-    <ul class="projects">
-
-      <li>
-        <div class="project-card">
-          <img src="assets/logo.png" alt="CoachPad Logo" class="project-logo" />
-          <div class="project-copy">
-            <a href="coachpad.html">CoachPad</a>
-            <p>
-              A tactical board application that allows coaches to create, animate,
-              and share training tactics with ease.
-            </p>
-          </div>
+    <section class="section">
+      <div class="panel">
+        <div>
+          <h2>Support</h2>
+          <p>For product support, app listings, privacy questions, or business inquiries, contact Metechi directly.</p>
         </div>
-      </li>
+        <a class="button primary" href="mailto:info@metechi.dev">info@metechi.dev</a>
+      </div>
+    </section>
+  </main>
 
-      <li>
-        <div class="project-card">
-          <img src="assets/infinite-flux-logo.png" alt="Infinite Flux Logo" class="project-logo" />
-          <div class="project-copy">
-            <a href="infinite-flux.html">Infinite Flux</a>
-            <p>
-              A fast-paced reflex runner built around lane switching, focus control,
-              streak building, and endless arcade flow.
-            </p>
-          </div>
-        </div>
-      </li>
-
-    </ul>
-  </section>
-
-  <section>
-    <h2>Product Support and Public Context</h2>
+  <footer class="shell">
     <p>
-      Metechi product pages are the source of truth for availability, platform
-      support, privacy links, and current product descriptions. CoachPad has
-      public App Store and Google Play listings, and Infinite Flux documents
-      current release status directly.
-    </p>
-    <p>
-      Every listed product has a dedicated page with privacy or support links so
-      users, search engines, and AI agents can verify what each app does before
-      citing or summarizing it.
-    </p>
-    <ul class="fact-list">
-      <li><strong>Public contact:</strong> info@metechi.dev for support and business inquiries.</li>
-      <li><strong>Verified product listings:</strong> CoachPad links to Google Play and the App Store.</li>
-      <li><strong>Discovery files:</strong> llms.txt, llms-full.txt, ai.txt, sitemap.xml, robots.txt, agent card, and agent skills are published.</li>
-      <li><strong>Content freshness:</strong> product and policy pages were updated on April 29, 2026.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>FAQ</h2>
-    <p>
-      <strong>What is Metechi?</strong> Metechi is a product site
-      for independent web and mobile applications.
-    </p>
-    <p>
-      <strong>Which products are listed?</strong> The site currently lists
-      CoachPad and Infinite Flux.
-    </p>
-    <p>
-      <strong>Where can users find policies?</strong> Product-specific privacy
-      policy pages are linked from each application page.
-    </p>
-  </section>
-
-  <footer>
-    <p>
-      <a href="privacy.html">Privacy Policy</a> |
+      <a href="privacy.html">Privacy Policy</a> ·
       <a href="mailto:info@metechi.dev">Contact</a>
     </p>
     <p>&copy; 2026 Metechi. All rights reserved.</p>

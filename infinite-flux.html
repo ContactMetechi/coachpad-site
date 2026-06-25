@@ -7,96 +7,145 @@
     <meta name="description" content="Infinite Flux is a mobile reflex runner game focused on lane switching, timing, focus energy, streak control, upgrades, and endless arcade scoring.">
   <link rel="canonical" href="https://www.metechi.dev/infinite-flux.html" />
 <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background: #f8f9fa;
       margin: 0;
-      padding: 0;
-      color: #333;
+      color: #182033;
+      background: #f5f7fb;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+    }
+    a {
+      color: inherit;
+    }
+    .shell {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    nav {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .brand,
+    .nav-links a {
+      color: #182033;
+      text-decoration: none;
+      font-weight: 800;
+    }
+    .nav-links {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
     }
     header {
-      background: linear-gradient(135deg, #0a1834, #0f4c81);
-      color: white;
-      padding: 40px 20px;
-      border-bottom-left-radius: 30px;
-      border-bottom-right-radius: 30px;
+      padding: 44px 0 30px;
     }
     img.logo {
-      width: 120px;
-      height: 120px;
-      border-radius: 24px;
-      margin-bottom: 20px;
+      width: 76px;
+      height: 76px;
+      border-radius: 18px;
+      margin-bottom: 18px;
+      object-fit: cover;
+      box-shadow: 0 14px 30px rgba(15, 76, 129, 0.18);
     }
     h1 {
-      font-size: 2em;
-      margin: 0;
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 6vw, 4rem);
+      line-height: 1;
+      letter-spacing: -0.02em;
     }
     p {
-      font-size: 1.1em;
-      margin: 20px auto;
       max-width: 700px;
+      color: #59687a;
       line-height: 1.6;
     }
     .button-container {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
       margin-top: 20px;
     }
     a.button,
     span.button {
       display: inline-block;
+      border: 1px solid #d8e1ef;
       background: #ffffff;
       color: #0f4c81;
-      padding: 12px 28px;
-      border-radius: 8px;
+      padding: 11px 15px;
+      border-radius: 10px;
       text-decoration: none;
-      font-weight: bold;
-      transition: background 0.2s ease, transform 0.2s ease;
-      margin: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      font-weight: 800;
+      box-shadow: 0 12px 28px rgba(24, 32, 51, 0.08);
     }
-    a.button:hover {
-      background: #f1f1f1;
-      transform: translateY(-2px);
+    a.button.primary {
+      color: #ffffff;
+      border-color: #0f4c81;
+      background: #0f4c81;
     }
     span.button {
-      background: rgba(255, 255, 255, 0.14);
-      color: rgba(255, 255, 255, 0.92);
-      box-shadow: none;
+      color: #657386;
       cursor: default;
     }
     section {
-      margin: 40px auto;
-      max-width: 700px;
-      text-align: left;
-      padding: 0 20px;
+      margin: 28px 0;
     }
     h2 {
-      color: #0f4c81;
-      margin-top: 40px;
+      margin: 0 0 12px;
+      color: #182033;
+      font-size: 1.6rem;
     }
     ul {
       line-height: 1.8;
-      padding-left: 22px;
+      padding-left: 20px;
     }
-    .fact-list {
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      padding: 18px 22px;
+    .card {
+      border: 1px solid #dfe7f2;
+      border-radius: 16px;
+      background: #ffffff;
+      padding: 22px;
+      box-shadow: 0 18px 42px rgba(24, 32, 51, 0.08);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .feature {
+      border: 1px solid #dfe7f2;
+      border-radius: 14px;
+      background: #ffffff;
+      padding: 16px;
+      font-weight: 750;
     }
     footer {
-      margin-top: 60px;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #555;
+      padding: 36px 0 44px;
+      color: #657386;
+      font-size: 0.92rem;
     }
     footer a {
       color: #0f4c81;
+      font-weight: 800;
       text-decoration: none;
-      margin: 0 10px;
     }
-    footer a:hover {
-      text-decoration: underline;
+    @media (max-width: 760px) {
+      nav {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 16px 0;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      a.button,
+      span.button {
+        width: 100%;
+        text-align: center;
+      }
     }
   </style>
   <script type="application/ld+json">
@@ -229,88 +278,45 @@
   </script>
 </head>
 <body>
+  <nav class="shell">
+    <a class="brand" href="index.html">Metechi</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="infinite-flux-privacy.html">Privacy</a>
+      <a href="mailto:info@metechi.dev">Contact</a>
+    </div>
+  </nav>
 
-  <header>
+  <header class="shell">
     <img src="assets/infinite-flux-logo.png" alt="Infinite Flux Logo" class="logo">
     <h1>Infinite Flux</h1>
     <p>Reflex, rhythm, and focus in a fast-moving endless lane runner.</p>
 
     <div class="button-container">
-      <a href="infinite-flux-privacy.html" class="button">Privacy Policy</a>
+      <a href="infinite-flux-privacy.html" class="button primary">Privacy Policy</a>
       <span class="button">App Store Release Coming Soon</span>
     </div>
   </header>
 
-  <section>
-    <h2>About Infinite Flux</h2>
-    <p>
-      Infinite Flux is a fast-paced mobile arcade game built around lane switching,
-      timing, focus management, and streak control. You dodge hazards, collect shards,
-      build multipliers, complete quests, and push for higher scores in an endless flow.
-    </p>
-    <p>
-      The game is designed for short, repeatable sessions where reaction speed
-      and decision timing matter. Players manage focus energy, decide when to
-      use Phase mode, and try to keep scoring streaks alive while the run becomes
-      faster and more demanding.
-    </p>
-  </section>
+  <main class="shell">
+    <section class="card">
+      <h2>Fast sessions, clear loop</h2>
+      <p>Switch lanes, avoid hazards, collect shards, manage focus energy, and keep streaks alive as the run gets faster.</p>
+    </section>
 
-  <section>
-    <h2>Infinite Flux at a Glance</h2>
-    <ul class="fact-list">
-      <li><strong>Audience:</strong> mobile arcade players who enjoy reflex and timing games.</li>
-      <li><strong>Core loop:</strong> switch lanes, avoid hazards, collect shards, and build streaks.</li>
-      <li><strong>Progression:</strong> objectives, upgrades, multipliers, and score improvement.</li>
-      <li><strong>Platforms:</strong> iOS and Android release context.</li>
-      <li><strong>Support:</strong> product questions can be sent to info@metechi.dev.</li>
-    </ul>
-  </section>
+    <section class="grid">
+      <div class="feature">Lane switching</div>
+      <div class="feature">Focus energy</div>
+      <div class="feature">Streak progression</div>
+    </section>
 
-  <section>
-    <h2>Core Gameplay</h2>
-    <ul>
-      <li>Switch lanes quickly with taps or swipes.</li>
-      <li>Use Phase mode to pass through danger at the cost of focus energy.</li>
-      <li>Build streaks and multipliers by collecting shards at the right moments.</li>
-      <li>Unlock upgrades and complete daily or weekly objectives.</li>
-      <li>Use optional rewarded ads for a second chance when available.</li>
-    </ul>
-  </section>
+    <section class="card">
+      <h2>Support</h2>
+      <p>For release, privacy, or product questions, email <a href="mailto:info@metechi.dev">info@metechi.dev</a>.</p>
+    </section>
+  </main>
 
-  <section>
-    <h2>Platform and Status</h2>
-    <p>
-      Infinite Flux is prepared as a mobile game experience for iOS and Android.
-      The page documents gameplay, privacy information, and release status for
-      players and app review crawlers.
-    </p>
-    <p>
-      Current public context is maintained on this page and in the linked privacy
-      policy. Support requests and product inquiries can be sent to info@metechi.dev.
-    </p>
-    <p>Last updated: April 29, 2026.</p>
-  </section>
-
-  <section>
-    <h2>FAQ</h2>
-    <p>
-      <strong>What makes Infinite Flux different?</strong> The game combines
-      fast lane movement with a focus energy system, so survival depends on both
-      reaction speed and when players choose to phase through danger.
-    </p>
-    <p>
-      <strong>Is Infinite Flux documented for app review and crawlers?</strong>
-      Yes. This page describes gameplay, target platforms, release status,
-      privacy information, and support contact details.
-    </p>
-    <p>
-      <strong>How can players contact support?</strong> Players can email
-      info@metechi.dev for product support or privacy questions.
-    </p>
-  </section>
-
-  <footer>
+  <footer class="shell">
     <p>
       <a href="infinite-flux-privacy.html">Privacy Policy</a> |
       <a href="mailto:info@metechi.dev">Contact</a>
