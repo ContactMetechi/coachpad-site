@@ -19,16 +19,12 @@
       "description": "Infinite Flux is a mobile reflex runner built around lane switching, timing, focus energy, streaks, upgrades, and arcade scoring.",
       "image": "https://www.metechi.dev/assets/infinite-flux-logo.png",
       "isAccessibleForFree": true,
-      "featureList": ["Lane switching", "Focus energy", "Shard collection", "Streak scoring", "Upgrade progression"],
-      "publisher": {
-        "@type": "Organization",
-        "name": "Metechi",
-        "url": "https://www.metechi.dev/"
-      }
+      "publisher": { "@type": "Organization", "name": "Metechi", "url": "https://www.metechi.dev/" }
     }
   </script>
 </head>
-<body>
+<body data-scene="flux">
+  <div class="scroll-meter" aria-hidden="true"><span></span></div>
   <nav class="site-nav" aria-label="Main navigation">
     <a class="brand" href="/">
       <img src="assets/infinite-flux-logo.png" alt="Infinite Flux logo" />
@@ -42,53 +38,49 @@
     </div>
   </nav>
 
-  <header class="hero">
-    <div class="hero-copy reveal">
+  <header class="hero" data-scene="flux">
+    <div class="hero-copy">
       <p class="eyebrow">Reflex runner</p>
-      <h1 class="page-title">Switch lanes. Hold focus. Break the loop.</h1>
-      <p>Infinite Flux is a fast mobile arcade game about reading the lane, controlling the rhythm, collecting shards, and extending the streak.</p>
+      <h1>Speed lanes, shards, and pressure.</h1>
+      <p>Infinite Flux is a mobile arcade runner about reading the lane, controlling focus, collecting shards, and stretching the streak.</p>
       <div class="hero-actions">
         <a class="button" href="#systems">Explore systems</a>
         <a class="button secondary" href="infinite-flux-privacy.html">Privacy Policy</a>
       </div>
     </div>
-    <div class="showcase-frame reveal" data-depth="10" aria-hidden="true">
-      <img class="showcase-image" src="assets/infinite-flux-showcase.png" alt="" />
-      <div class="showcase-content">
-        <div class="showcase-chip"><strong>Speed / Focus / Streaks</strong><span>A neon runner world built around reflex pressure and progression.</span></div>
-        <div class="showcase-kicker">Infinite Flux</div>
+    <div class="tech-stage" aria-hidden="true">
+      <img class="stage-image" src="assets/infinite-flux-showcase.png" alt="" />
+      <div class="pulse-ring"></div>
+      <div class="stage-hud">
+        <div class="hud-panel"><strong>Infinite Flux</strong><span>Lane switching, focus energy, shards, streaks, and upgrade pressure.</span></div>
+        <div class="scene-index">Arcade Core</div>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="section reveal" id="systems">
-      <div class="section-head">
-        <p class="eyebrow">Game systems</p>
-        <h2>Arcade pressure, clean rules.</h2>
-        <p>The loop is built for short, intense runs where timing, upgrades, rewards, and focus management keep the pace moving.</p>
-      </div>
-      <div class="grid three">
+    <section class="story" id="systems">
+      <article class="chapter" data-scene="flux">
+        <div class="scene-copy">
+          <span class="number">01</span>
+          <p class="eyebrow">Game systems</p>
+          <h2>The product world moves with the runner.</h2>
+          <p>The page uses the same high-energy visual language as the game: neon lanes, dark panels, shard motion, and fast product context.</p>
+          <div class="spec-list">
+            <span>Lane switching</span>
+            <span>Focus energy</span>
+            <span>Streak scoring</span>
+          </div>
+        </div>
+        <div class="sticky-visual"><div class="image-fit"><img src="assets/infinite-flux-showcase.png" alt="" /></div></div>
+      </article>
+    </section>
+
+    <section class="section" data-scene="studio">
+      <div class="feature-grid">
         <div class="feature"><h3>Lane switching</h3><p>React to hazards and openings with fast movement decisions.</p></div>
         <div class="feature"><h3>Focus energy</h3><p>Manage a limited resource that changes the feel of each run.</p></div>
         <div class="feature"><h3>Progression</h3><p>Collect shards, build streaks, unlock upgrades, and chase better scores.</p></div>
-      </div>
-    </section>
-
-    <section class="section reveal">
-      <div class="split">
-        <div class="showcase-frame" aria-hidden="true">
-          <img class="showcase-image" src="assets/infinite-flux-showcase.png" alt="" />
-        </div>
-        <div class="section-head">
-          <p class="eyebrow">Support</p>
-          <h2>Mobile-first and policy-ready.</h2>
-          <p>Infinite Flux is documented with clear privacy information and direct support contact for app questions.</p>
-          <div class="inline-actions">
-            <a class="button secondary" href="infinite-flux-privacy.html">Privacy Policy</a>
-            <a class="button ghost" href="mailto:info@metechi.dev">info@metechi.dev</a>
-          </div>
-        </div>
       </div>
     </section>
   </main>

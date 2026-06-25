@@ -19,26 +19,16 @@
       "description": "CoachPad helps coaches create drills, animate formations, and share tactical plans.",
       "image": "https://www.metechi.dev/assets/coachpad-logo.svg",
       "isAccessibleForFree": true,
-      "featureList": ["Tactical board creation", "Formation animation", "Drill planning", "Tactic sharing"],
       "sameAs": [
         "https://play.google.com/store/apps/details?id=com.coachpad",
         "https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315"
       ],
-      "publisher": {
-        "@type": "Organization",
-        "name": "Metechi",
-        "url": "https://www.metechi.dev/"
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
-      }
+      "publisher": { "@type": "Organization", "name": "Metechi", "url": "https://www.metechi.dev/" }
     }
   </script>
 </head>
-<body>
+<body data-scene="coachpad">
+  <div class="scroll-meter" aria-hidden="true"><span></span></div>
   <nav class="site-nav" aria-label="Main navigation">
     <a class="brand" href="/">
       <img src="assets/coachpad-logo.svg" alt="CoachPad logo" />
@@ -52,66 +42,73 @@
     </div>
   </nav>
 
-  <header class="hero">
-    <div class="hero-copy reveal">
+  <header class="hero" data-scene="coachpad">
+    <div class="hero-copy">
       <p class="eyebrow">Tactical command board</p>
-      <h1 class="page-title">A premium surface for match ideas.</h1>
+      <h1>Match ideas, rendered like a control room.</h1>
       <p>CoachPad turns formations, player movement, drills, and match plans into a visual workflow coaches can build, animate, and share fast.</p>
       <div class="hero-actions">
         <a class="button" href="https://play.google.com/store/apps/details?id=com.coachpad">Google Play</a>
         <a class="button secondary" href="https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315">App Store</a>
       </div>
     </div>
-    <div class="showcase-frame reveal" data-depth="12" aria-hidden="true">
-      <img class="showcase-image" src="assets/coachpad-showcase.png" alt="" />
-      <div class="showcase-content">
-        <div class="showcase-chip"><strong>Build / Animate / Share</strong><span>Holographic tactical workflows for coaches and team staff.</span></div>
-        <div class="showcase-kicker">CoachPad</div>
+    <div class="tech-stage" aria-hidden="true">
+      <img class="stage-image" src="assets/coachpad-showcase.png" alt="" />
+      <div class="pulse-ring"></div>
+      <div class="stage-hud">
+        <div class="hud-panel"><strong>CoachPad</strong><span>Build, animate, and explain tactical sessions with a premium mobile board.</span></div>
+        <div class="scene-index">Live Board</div>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="section reveal" id="workflow">
-      <div class="split">
-        <div class="section-head">
+    <section class="story" id="workflow">
+      <article class="chapter" data-scene="coachpad">
+        <div class="scene-copy">
+          <span class="number">01</span>
           <p class="eyebrow">Workflow</p>
-          <h2>From whiteboard idea to shareable sequence.</h2>
-          <p>CoachPad is built for the moments around training: explaining a press, rehearsing a restart, preparing a shape, or reviewing a pattern with players and staff.</p>
+          <h2>From rough idea to animated sequence.</h2>
+          <p>Place players, sketch the shape, map movement, and turn static formations into something players can actually understand before training or match day.</p>
+          <div class="spec-list">
+            <span>Set the shape</span>
+            <span>Map movement</span>
+            <span>Share the plan</span>
+          </div>
         </div>
-        <div class="timeline">
-          <div class="timeline-item"><b>01</b><p><strong>Set the shape.</strong><br />Place players and objects on a clear tactical board.</p></div>
-          <div class="timeline-item"><b>02</b><p><strong>Map the movement.</strong><br />Animate runs, rotations, passes, and pressure triggers.</p></div>
-          <div class="timeline-item"><b>03</b><p><strong>Use it with the team.</strong><br />Share the plan before training or match preparation.</p></div>
-        </div>
-      </div>
+        <div class="sticky-visual"><div class="image-fit"><img src="assets/coachpad-showcase.png" alt="" /></div></div>
+      </article>
     </section>
 
-    <section class="section reveal" id="features">
+    <section class="section" id="features" data-scene="studio">
       <div class="section-head">
-        <p class="eyebrow">Feature set</p>
-        <h2>Everything a tactical board needs.</h2>
+        <p class="eyebrow">Features</p>
+        <h2>Simple tools, serious presentation.</h2>
       </div>
-      <div class="grid three">
+      <div class="feature-grid">
         <div class="feature"><h3>Formation design</h3><p>Create team shapes and drill setups without a heavy desktop workflow.</p></div>
-        <div class="feature"><h3>Animated tactics</h3><p>Show timing, routes, rotations, and transitions instead of relying on static diagrams.</p></div>
+        <div class="feature"><h3>Animated tactics</h3><p>Show timing, runs, rotations, and pressure triggers instead of static diagrams.</p></div>
         <div class="feature"><h3>Team communication</h3><p>Turn tactical ideas into shareable visual context for players and staff.</p></div>
       </div>
     </section>
 
-    <section class="section reveal">
+    <section class="section" data-scene="studio">
       <div class="split">
-        <div class="showcase-frame" aria-hidden="true">
-          <img class="showcase-image" src="assets/coachpad-showcase.png" alt="" />
-        </div>
         <div class="section-head">
           <p class="eyebrow">Availability</p>
-          <h2>Ready on mobile stores.</h2>
+          <h2>Store links stay direct.</h2>
           <p>CoachPad has public listings on Google Play and the App Store. Support and privacy details are maintained from this site.</p>
           <div class="inline-actions">
-            <a class="button" href="https://play.google.com/store/apps/details?id=com.coachpad">Get it on Google Play</a>
-            <a class="button secondary" href="https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315">Download on the App Store</a>
-            <a class="button ghost" href="coachpad-privacy.html">Privacy Policy</a>
+            <a class="button" href="https://play.google.com/store/apps/details?id=com.coachpad">Google Play</a>
+            <a class="button secondary" href="https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315">App Store</a>
+            <a class="button ghost" href="coachpad-privacy.html">Privacy</a>
+          </div>
+        </div>
+        <div class="tech-stage" aria-hidden="true">
+          <img class="stage-image" src="assets/coachpad-showcase.png" alt="" />
+          <div class="stage-hud">
+            <div class="hud-panel"><strong>Support</strong><span>Questions and privacy requests: info@metechi.dev</span></div>
+            <div class="scene-index">Ready</div>
           </div>
         </div>
       </div>

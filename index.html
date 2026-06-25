@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Metechi - Premium Mobile Products</title>
-  <meta name="description" content="Metechi builds polished mobile products including CoachPad, a tactical board for coaches, and Infinite Flux, a reflex runner game." />
-  <meta name="keywords" content="Metechi, CoachPad, Infinite Flux, tactical board app, coaching software, mobile game" />
+  <title>Metechi - Futuristic Product Portfolio</title>
+  <meta name="description" content="Metechi is a futuristic product portfolio for CoachPad and Infinite Flux, with premium mobile app pages and product support." />
+  <meta name="keywords" content="Metechi, CoachPad, Infinite Flux, product portfolio, tactical board app, mobile game" />
   <link rel="canonical" href="https://www.metechi.dev/" />
   <link rel="stylesheet" href="assets/site.css" />
   <script type="application/ld+json">
@@ -20,174 +20,157 @@
           "description": "Metechi builds polished mobile products including CoachPad and Infinite Flux.",
           "email": "info@metechi.dev",
           "logo": "https://www.metechi.dev/assets/metechi-logo.png",
-          "knowsAbout": ["mobile applications", "sports coaching software", "mobile games"],
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "info@metechi.dev",
-            "contactType": "product support",
-            "availableLanguage": "en"
-          }
+          "knowsAbout": ["mobile applications", "sports coaching software", "mobile games"]
         },
         {
           "@type": "WebSite",
           "@id": "https://www.metechi.dev/#website",
           "name": "Metechi",
           "url": "https://www.metechi.dev/",
-          "description": "Official Metechi site for mobile products.",
+          "description": "Futuristic product portfolio for Metechi mobile products.",
           "publisher": { "@id": "https://www.metechi.dev/#organization" }
-        },
-        {
-          "@type": "ItemList",
-          "name": "Metechi Products",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "SoftwareApplication",
-                "name": "CoachPad",
-                "url": "https://www.metechi.dev/coachpad.html",
-                "applicationCategory": "SportsApplication",
-                "operatingSystem": "iOS, Android, Web",
-                "description": "A tactical board for coaches to design drills, animate formations, and share match ideas.",
-                "image": "https://www.metechi.dev/assets/coachpad-logo.svg"
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "SoftwareApplication",
-                "name": "Infinite Flux",
-                "url": "https://www.metechi.dev/infinite-flux.html",
-                "applicationCategory": "GameApplication",
-                "operatingSystem": "iOS, Android",
-                "description": "A mobile reflex runner built around lane switching, timing, streaks, and upgrades.",
-                "image": "https://www.metechi.dev/assets/infinite-flux-logo.png"
-              }
-            }
-          ]
         }
       ]
     }
   </script>
 </head>
-<body>
+<body data-scene="coachpad">
+  <div class="scroll-meter" aria-hidden="true"><span></span></div>
+
   <nav class="site-nav" aria-label="Main navigation">
     <a class="brand" href="/">
       <img src="assets/metechi-logo.png" alt="Metechi logo" />
       <span>Metechi</span>
     </a>
     <div class="nav-links">
-      <a href="coachpad.html">CoachPad</a>
-      <a href="infinite-flux.html">Infinite Flux</a>
+      <a href="#coachpad">CoachPad</a>
+      <a href="#flux">Infinite Flux</a>
       <a href="privacy.html">Privacy</a>
       <a href="mailto:info@metechi.dev">Contact</a>
     </div>
   </nav>
 
-  <header class="hero">
-    <div class="hero-copy reveal">
+  <header class="hero" data-scene="coachpad">
+    <div class="hero-copy">
       <p class="eyebrow">Independent product studio</p>
-      <h1 class="page-title">Mobile products with cinematic edge.</h1>
-      <p>Metechi is a small product portfolio led by CoachPad, a tactical command surface for coaches, and Infinite Flux, a fast arcade runner built around rhythm and reaction.</p>
+      <h1>Scroll through the product lab.</h1>
+      <p>Metechi is a compact mobile portfolio presented as a cinematic product system: CoachPad for tactical planning, Infinite Flux for arcade motion.</p>
       <div class="hero-actions">
-        <a class="button" href="coachpad.html">Explore CoachPad</a>
-        <a class="button secondary" href="infinite-flux.html">View Infinite Flux</a>
+        <a class="button" href="#coachpad">Enter portfolio</a>
+        <a class="button secondary" href="coachpad.html">Open CoachPad</a>
       </div>
     </div>
-    <div class="showcase-frame reveal" data-depth="10" aria-hidden="true">
-      <img class="showcase-image" src="assets/coachpad-showcase.png" alt="" />
-      <div class="showcase-content">
-        <div class="showcase-chip"><strong>CoachPad</strong><span>Holographic tactical planning for modern coaching workflows.</span></div>
-        <div class="showcase-kicker">Portfolio / 2026</div>
+    <div class="tech-stage" aria-hidden="true">
+      <img class="stage-image" src="assets/coachpad-showcase.png" alt="" />
+      <div class="pulse-ring"></div>
+      <div class="stage-hud">
+        <div class="hud-panel"><strong>CoachPad OS</strong><span>Holographic tactical planning, animated movement, team-ready visual workflows.</span></div>
+        <div class="scene-index">Scene 01 / Tactical</div>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="section reveal">
-      <div class="signal-grid">
-        <div class="signal"><b>01</b><span>Product design</span></div>
-        <div class="signal"><b>02</b><span>Mobile apps</span></div>
-        <div class="signal"><b>03</b><span>Game systems</span></div>
-        <div class="signal"><b>04</b><span>Support pages</span></div>
+    <section class="section" data-scene="studio">
+      <div class="data-grid">
+        <div class="data-tile"><b>Studio</b><strong>Metechi</strong><span>Focused mobile products, not a crowded app dump.</span></div>
+        <div class="data-tile"><b>Surface</b><strong>iOS / Android</strong><span>Store-ready product pages and support flows.</span></div>
+        <div class="data-tile"><b>Visual</b><strong>Holographic</strong><span>Dark UI, moving light fields, contained cinematic media.</span></div>
+        <div class="data-tile"><b>Status</b><strong>Public lineup</strong><span>CoachPad and Infinite Flux are the active portfolio products.</span></div>
       </div>
     </section>
 
-    <section class="section reveal" id="products">
+    <section class="story">
+      <article class="chapter" id="coachpad" data-scene="coachpad">
+        <div class="scene-copy">
+          <span class="number">01</span>
+          <p class="eyebrow">CoachPad</p>
+          <h2>Tactical planning, rebuilt as a command surface.</h2>
+          <p>CoachPad gets the flagship treatment: a cinematic product presence, strong store actions, and a visual system that feels like sport-tech software instead of a basic landing page.</p>
+          <div class="spec-list">
+            <span>Formation design</span>
+            <span>Animated tactic sequences</span>
+            <span>Google Play + App Store links</span>
+          </div>
+          <div class="inline-actions">
+            <a class="button" href="coachpad.html">Open CoachPad</a>
+            <a class="button ghost" href="coachpad-privacy.html">Privacy</a>
+          </div>
+        </div>
+        <div class="sticky-visual">
+          <div class="image-fit">
+            <img src="assets/coachpad-showcase.png" alt="" />
+          </div>
+        </div>
+      </article>
+
+      <article class="chapter alt" id="flux" data-scene="flux">
+        <div class="scene-copy">
+          <span class="number">02</span>
+          <p class="eyebrow">Infinite Flux</p>
+          <h2>The arcade product world shifts the whole page.</h2>
+          <p>Scroll into Infinite Flux and the page changes tone: cyan, magenta, speed trails, shards, lanes, and a product page that feels closer to a game reveal than a static brochure.</p>
+          <div class="spec-list">
+            <span>Lane switching</span>
+            <span>Focus energy</span>
+            <span>Streaks and upgrades</span>
+          </div>
+          <div class="inline-actions">
+            <a class="button secondary" href="infinite-flux.html">Open Infinite Flux</a>
+            <a class="button ghost" href="infinite-flux-privacy.html">Privacy</a>
+          </div>
+        </div>
+        <div class="sticky-visual">
+          <div class="image-fit">
+            <img src="assets/infinite-flux-showcase.png" alt="" />
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" data-scene="studio">
       <div class="section-head">
         <p class="eyebrow">Selected work</p>
-        <h2>A compact portfolio, presented like products.</h2>
-        <p>Two active releases with distinct worlds: one for coaches building match ideas, one for players chasing speed and precision.</p>
+        <h2>Two active products. One portfolio system.</h2>
+        <p>Images are now treated as contained product artifacts, not cropped background rectangles. The page evolves as you scroll, while each product keeps a clear action path.</p>
       </div>
-      <div class="grid two">
+      <div class="matrix">
         <a class="product-card" href="coachpad.html">
-          <div class="product-media"><img src="assets/coachpad-showcase.png" alt="" /></div>
-          <div class="product-top">
-            <img class="product-icon" src="assets/coachpad-logo.svg" alt="CoachPad logo" />
+          <img src="assets/coachpad-showcase.png" alt="" />
+          <div class="product-copy">
             <span class="tag">Flagship</span>
-          </div>
-          <div>
             <h3>CoachPad</h3>
-            <p>Design formations, build animated drill sequences, and share tactical ideas without wrestling with a complicated editor.</p>
-            <div class="stat-line"><span>Tactics</span><span>Animation</span><span>Team sharing</span></div>
+            <p>A tactical board for coaches to design, animate, and share match ideas.</p>
           </div>
         </a>
         <a class="product-card" href="infinite-flux.html">
-          <div class="product-media"><img src="assets/infinite-flux-showcase.png" alt="" /></div>
-          <div class="product-top">
-            <img class="product-icon" src="assets/infinite-flux-logo.png" alt="Infinite Flux logo" />
+          <img src="assets/infinite-flux-showcase.png" alt="" />
+          <div class="product-copy">
             <span class="tag">Arcade</span>
-          </div>
-          <div>
             <h3>Infinite Flux</h3>
-            <p>A reflex runner built around lane control, focus energy, rewards, streaks, and fast mobile sessions.</p>
-            <div class="stat-line"><span>Timing</span><span>Streaks</span><span>Upgrades</span></div>
+            <p>A neon reflex runner built around lanes, focus, streaks, and upgrades.</p>
           </div>
         </a>
       </div>
     </section>
 
-    <section class="section reveal">
-      <div class="section-head">
-        <p class="eyebrow">Portfolio</p>
-        <h2>Different products, one visual standard.</h2>
-      </div>
-      <div class="work-list">
-        <article class="work-card">
-          <div class="work-media"><img src="assets/coachpad-showcase.png" alt="" /></div>
-          <div class="work-copy">
-            <p class="eyebrow">CoachPad</p>
-            <h3>Sport-tech command surface</h3>
-            <p>A tactical product page built around motion, clarity, store links, and a premium app presence for coaches.</p>
-            <div class="inline-actions"><a class="button" href="coachpad.html">Open project</a></div>
-          </div>
-        </article>
-        <article class="work-card">
-          <div class="work-media"><img src="assets/infinite-flux-showcase.png" alt="" /></div>
-          <div class="work-copy">
-            <p class="eyebrow">Infinite Flux</p>
-            <h3>Neon arcade product world</h3>
-            <p>A darker, faster product page for a mobile reflex runner with lane energy, speed, shards, and progression.</p>
-            <div class="inline-actions"><a class="button secondary" href="infinite-flux.html">Open project</a></div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section reveal">
+    <section class="section" data-scene="studio">
       <div class="split">
-        <div class="showcase-frame" aria-hidden="true">
-          <img class="showcase-image" src="assets/infinite-flux-showcase.png" alt="" />
-        </div>
         <div class="section-head">
           <p class="eyebrow">Contact</p>
-          <h2>Support and business contact.</h2>
+          <h2>Support stays simple.</h2>
           <p>For product support, store listing questions, or business inquiries, use the public Metechi contact address.</p>
           <div class="inline-actions">
             <a class="button secondary" href="privacy.html">Privacy center</a>
             <a class="button ghost" href="mailto:info@metechi.dev">info@metechi.dev</a>
+          </div>
+        </div>
+        <div class="tech-stage" aria-hidden="true">
+          <img class="stage-image" src="assets/infinite-flux-showcase.png" alt="" />
+          <div class="pulse-ring"></div>
+          <div class="stage-hud">
+            <div class="hud-panel"><strong>Public lineup</strong><span>CoachPad and Infinite Flux are presented as the active Metechi portfolio.</span></div>
+            <div class="scene-index">Scene 03 / Studio</div>
           </div>
         </div>
       </div>
