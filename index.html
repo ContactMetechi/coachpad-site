@@ -1,13 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Metechi - Futuristic Product Portfolio</title>
-  <meta name="description" content="Metechi is a futuristic product portfolio for CoachPad and Infinite Flux, with premium mobile app pages and product support." />
-  <meta name="keywords" content="Metechi, CoachPad, Infinite Flux, product portfolio, tactical board app, mobile game" />
+  <title>Metechi - Web and Mobile Products</title>
+  <meta name="description" content="Metechi builds practical web and mobile products including CoachPad and Infinite Flux, with support, privacy, platform, and product details." />
   <link rel="canonical" href="https://www.metechi.dev/" />
-  <link rel="stylesheet" href="assets/site.css" />
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -17,162 +15,384 @@
           "@id": "https://www.metechi.dev/#organization",
           "name": "Metechi",
           "url": "https://www.metechi.dev/",
-          "description": "Metechi builds polished mobile products including CoachPad and Infinite Flux.",
+          "description": "Metechi builds practical web and mobile products including CoachPad and Infinite Flux.",
           "email": "info@metechi.dev",
           "logo": "https://www.metechi.dev/assets/metechi-logo.png",
-          "knowsAbout": ["mobile applications", "sports coaching software", "mobile games"]
+          "knowsAbout": [
+            "mobile applications",
+            "web applications",
+            "sports coaching software",
+            "mobile games"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "info@metechi.dev",
+            "contactType": "product support",
+            "availableLanguage": [
+              "en"
+            ]
+          }
         },
         {
           "@type": "WebSite",
           "@id": "https://www.metechi.dev/#website",
           "name": "Metechi",
           "url": "https://www.metechi.dev/",
-          "description": "Futuristic product portfolio for Metechi mobile products.",
-          "publisher": { "@id": "https://www.metechi.dev/#organization" }
+          "description": "Official Metechi site for practical web and mobile products.",
+          "inLanguage": "en",
+          "dateModified": "2026-04-29",
+          "publisher": {
+            "@id": "https://www.metechi.dev/#organization"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.metechi.dev/#webpage",
+          "name": "Metechi - Web and Mobile Products",
+          "url": "https://www.metechi.dev/",
+          "description": "Metechi builds practical web and mobile products including CoachPad and Infinite Flux.",
+          "isPartOf": {
+            "@id": "https://www.metechi.dev/#website"
+          },
+          "about": {
+            "@id": "https://www.metechi.dev/#organization"
+          },
+          "dateModified": "2026-04-29",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "ItemList",
+          "name": "Metechi Products",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "CoachPad",
+                "url": "https://www.metechi.dev/coachpad.html",
+                "applicationCategory": "SportsApplication",
+                "operatingSystem": "iOS, Android, Web",
+                "description": "Tactical board app for coaches to create, animate, and share team tactics.",
+                "image": "https://www.metechi.dev/assets/logo.png",
+                "dateModified": "2026-04-29",
+                "sameAs": [
+                  "https://play.google.com/store/apps/details?id=com.coachpad",
+                  "https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315"
+                ]
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "SoftwareApplication",
+                "name": "Infinite Flux",
+                "url": "https://www.metechi.dev/infinite-flux.html",
+                "applicationCategory": "GameApplication",
+                "operatingSystem": "iOS, Android",
+                "description": "Reflex runner game focused on lane switching, timing, focus energy, streaks, and upgrades.",
+                "image": "https://www.metechi.dev/assets/infinite-flux-logo.png",
+                "dateModified": "2026-04-29"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.metechi.dev/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+          "name": "What is Metechi?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Metechi is a product site for independent web and mobile applications including CoachPad and Infinite Flux."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which products are listed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The site currently lists CoachPad and Infinite Flux."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can users contact Metechi?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Users can contact Metechi at info@metechi.dev for product support or business inquiries."
+              }
+            }
+          ]
         }
       ]
     }
   </script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0066cc, #004c99);
+      color: white;
+      padding: 60px 20px 70px;
+      border-bottom-left-radius: 32px;
+      border-bottom-right-radius: 32px;
+    }
+
+    .logo {
+      width: 128px;
+      height: auto;
+      object-fit: contain;
+      margin: 0 auto 24px;
+      display: block;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      margin-bottom: 16px;
+    }
+
+    header p {
+      max-width: 720px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    section {
+      max-width: 860px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: left;
+    }
+
+    h2 {
+      color: #0066cc;
+      margin-bottom: 16px;
+      font-size: 1.6rem;
+    }
+
+    section p {
+      font-size: 1.05rem;
+    }
+
+    .projects {
+      list-style: none;
+      margin-top: 20px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .projects li {
+      background: #ffffff;
+      padding: 18px 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+    .fact-list {
+      background: #ffffff;
+      padding: 18px 22px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      line-height: 1.8;
+      margin-top: 16px;
+    }
+
+    .project-card {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .project-logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 16px;
+      object-fit: cover;
+      flex: 0 0 auto;
+    }
+
+    .project-copy {
+      flex: 1;
+    }
+
+    .project-copy a {
+      color: #0066cc;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.05rem;
+    }
+
+    .project-copy a:hover {
+      text-decoration: underline;
+    }
+
+    .project-copy p {
+      margin: 6px 0 0;
+      font-size: 1rem;
+    }
+
+    footer {
+      margin-top: 70px;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    footer a {
+      color: #0066cc;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @media (max-width: 640px) {
+      .project-card {
+        align-items: flex-start;
+      }
+    }
+  </style>
 </head>
-<body data-scene="coachpad">
-  <div class="scroll-meter" aria-hidden="true"><span></span></div>
+<body>
 
-  <nav class="site-nav" aria-label="Main navigation">
-    <a class="brand" href="/">
-      <img src="assets/metechi-logo.png" alt="Metechi logo" />
-      <span>Metechi</span>
-    </a>
-    <div class="nav-links">
-      <a href="#coachpad">CoachPad</a>
-      <a href="#flux">Infinite Flux</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="mailto:info@metechi.dev">Contact</a>
-    </div>
-  </nav>
-
-  <header class="hero" data-scene="coachpad">
-    <div class="hero-copy">
-      <p class="eyebrow">Independent product studio</p>
-      <h1>Mobile product portfolio.</h1>
-      <p>Metechi builds focused mobile products with polished interfaces, clear support pages, and a controlled futuristic visual system.</p>
-      <div class="hero-actions">
-        <a class="button" href="#coachpad">View work</a>
-        <a class="button secondary" href="coachpad.html">Open CoachPad</a>
-      </div>
-    </div>
+  <header>
+    <img src="assets/metechi-logo.png" alt="Metechi Logo" class="logo" />
+    <h1>Metechi</h1>
+    <p>
+      I build clean, practical web and mobile applications focused on usability,
+      performance, and simplicity.
+    </p>
   </header>
 
-  <main>
-    <section class="section" data-scene="studio">
-      <div class="data-grid">
-        <div class="data-tile"><b>Studio</b><strong>Metechi</strong><span>Focused mobile products, not a crowded app dump.</span></div>
-        <div class="data-tile"><b>Surface</b><strong>iOS / Android</strong><span>Store-ready product pages and support flows.</span></div>
-        <div class="data-tile"><b>Visual</b><strong>Modern tech</strong><span>Dark UI, subtle motion, and contained product media.</span></div>
-        <div class="data-tile"><b>Status</b><strong>Public lineup</strong><span>CoachPad and Infinite Flux are the active portfolio products.</span></div>
-      </div>
-    </section>
+  <section>
+    <h2>About Metechi</h2>
+    <p>
+      Metechi is a web and mobile product site for practical applications
+      with clear user needs. The current product set includes CoachPad for
+      coaches and Infinite Flux for mobile arcade players.
+    </p>
+    <p>
+      The site is maintained as the public source of truth for product
+      descriptions, platform availability, support contact details, privacy
+      pages, app listing links, AI discovery files, and structured product
+      context.
+    </p>
+  </section>
 
-    <section class="story">
-      <article class="chapter" id="coachpad" data-scene="coachpad">
-        <div class="scene-copy">
-          <span class="number">01</span>
-          <p class="eyebrow">CoachPad</p>
-          <h2>CoachPad tactical board.</h2>
-          <p>A focused product page for creating formations, animating movement, and sharing coaching ideas with clear store and privacy links.</p>
-          <div class="spec-list">
-            <span>Formation design</span>
-            <span>Animated tactic sequences</span>
-            <span>Google Play + App Store links</span>
-          </div>
-          <div class="inline-actions">
-            <a class="button" href="coachpad.html">Open CoachPad</a>
-            <a class="button ghost" href="coachpad-privacy.html">Privacy</a>
-          </div>
-        </div>
-        <div class="sticky-visual">
-          <div class="image-fit">
-            <img src="assets/coachpad-showcase.png" alt="" />
-          </div>
-        </div>
-      </article>
+  <section>
+    <h2>What Metechi Builds</h2>
+    <p>
+      Metechi focuses on practical software products with clear use cases:
+      coaching tools for teams and arcade games for mobile players.
+      Each product page includes platform details,
+      support links, privacy information, and a concise feature summary.
+    </p>
+    <p>
+      Last updated: April 29, 2026. For product support or business inquiries,
+      contact <a href="mailto:info@metechi.dev">info@metechi.dev</a>.
+    </p>
+  </section>
 
-      <article class="chapter alt" id="flux" data-scene="flux">
-        <div class="scene-copy">
-          <span class="number">02</span>
-          <p class="eyebrow">Infinite Flux</p>
-          <h2>Infinite Flux arcade runner.</h2>
-          <p>A cleaner product section for the reflex runner: lane switching, focus energy, streaks, shards, and upgrade progression.</p>
-          <div class="spec-list">
-            <span>Lane switching</span>
-            <span>Focus energy</span>
-            <span>Streaks and upgrades</span>
-          </div>
-          <div class="inline-actions">
-            <a class="button secondary" href="infinite-flux.html">Open Infinite Flux</a>
-            <a class="button ghost" href="infinite-flux-privacy.html">Privacy</a>
-          </div>
-        </div>
-        <div class="sticky-visual">
-          <div class="image-fit">
-            <img src="assets/infinite-flux-showcase.png" alt="" />
-          </div>
-        </div>
-      </article>
-    </section>
+  <section>
+    <h2>Applications</h2>
+    <ul class="projects">
 
-    <section class="section" data-scene="studio">
-      <div class="section-head">
-        <p class="eyebrow">Selected work</p>
-        <h2>Two active products. One clean portfolio.</h2>
-        <p>Each project gets a restrained case-study card, clear copy, and a direct path to the product page.</p>
-      </div>
-      <div class="matrix">
-        <a class="product-card" href="coachpad.html">
-          <img src="assets/coachpad-showcase.png" alt="" />
-          <div class="product-copy">
-            <span class="tag">Flagship</span>
-            <h3>CoachPad</h3>
-            <p>A tactical board for coaches to design, animate, and share match ideas.</p>
-          </div>
-        </a>
-        <a class="product-card" href="infinite-flux.html">
-          <img src="assets/infinite-flux-showcase.png" alt="" />
-          <div class="product-copy">
-            <span class="tag">Arcade</span>
-            <h3>Infinite Flux</h3>
-            <p>A neon reflex runner built around lanes, focus, streaks, and upgrades.</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <section class="section" data-scene="studio">
-      <div class="split">
-        <div class="section-head">
-          <p class="eyebrow">Contact</p>
-          <h2>Support stays simple.</h2>
-          <p>For product support, store listing questions, or business inquiries, use the public Metechi contact address.</p>
-          <div class="inline-actions">
-            <a class="button secondary" href="privacy.html">Privacy center</a>
-            <a class="button ghost" href="mailto:info@metechi.dev">info@metechi.dev</a>
+      <li>
+        <div class="project-card">
+          <img src="assets/logo.png" alt="CoachPad Logo" class="project-logo" />
+          <div class="project-copy">
+            <a href="coachpad.html">CoachPad</a>
+            <p>
+              A tactical board application that allows coaches to create, animate,
+              and share training tactics with ease.
+            </p>
           </div>
         </div>
-        <div class="tech-stage" aria-hidden="true">
-          <img class="stage-image" src="assets/infinite-flux-showcase.png" alt="" />
-          <div class="pulse-ring"></div>
-          <div class="stage-hud">
-            <div class="hud-panel"><strong>Public lineup</strong><span>CoachPad and Infinite Flux are presented as the active Metechi portfolio.</span></div>
-            <div class="scene-index">Scene 03 / Studio</div>
+      </li>
+
+      <li>
+        <div class="project-card">
+          <img src="assets/infinite-flux-logo.png" alt="Infinite Flux Logo" class="project-logo" />
+          <div class="project-copy">
+            <a href="infinite-flux.html">Infinite Flux</a>
+            <p>
+              A fast-paced reflex runner built around lane switching, focus control,
+              streak building, and endless arcade flow.
+            </p>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </li>
 
-  <footer class="footer">
-    <span>&copy; 2026 Metechi. All rights reserved.</span>
-    <span><a href="privacy.html">Privacy</a> / <a href="mailto:info@metechi.dev">Contact</a></span>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Product Support and Public Context</h2>
+    <p>
+      Metechi product pages are the source of truth for availability, platform
+      support, privacy links, and current product descriptions. CoachPad has
+      public App Store and Google Play listings, and Infinite Flux documents
+      current release status directly.
+    </p>
+    <p>
+      Every listed product has a dedicated page with privacy or support links so
+      users, search engines, and AI agents can verify what each app does before
+      citing or summarizing it.
+    </p>
+    <ul class="fact-list">
+      <li><strong>Public contact:</strong> info@metechi.dev for support and business inquiries.</li>
+      <li><strong>Verified product listings:</strong> CoachPad links to Google Play and the App Store.</li>
+      <li><strong>Discovery files:</strong> llms.txt, llms-full.txt, ai.txt, sitemap.xml, robots.txt, agent card, and agent skills are published.</li>
+      <li><strong>Content freshness:</strong> product and policy pages were updated on April 29, 2026.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <p>
+      <strong>What is Metechi?</strong> Metechi is a product site
+      for independent web and mobile applications.
+    </p>
+    <p>
+      <strong>Which products are listed?</strong> The site currently lists
+      CoachPad and Infinite Flux.
+    </p>
+    <p>
+      <strong>Where can users find policies?</strong> Product-specific privacy
+      policy pages are linked from each application page.
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      <a href="privacy.html">Privacy Policy</a> |
+      <a href="mailto:info@metechi.dev">Contact</a>
+    </p>
+    <p>&copy; 2026 Metechi. All rights reserved.</p>
   </footer>
-  <script src="assets/site.js"></script>
+
 </body>
 </html>

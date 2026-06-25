@@ -1,13 +1,114 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CoachPad - Futuristic Tactical Board for Coaches</title>
-  <meta name="description" content="CoachPad helps coaches create drills, animate formations, and share tactical plans across iOS, Android, and web." />
-  <meta name="keywords" content="CoachPad, tactical board app, football tactics board, soccer drill planner, formation animation, coaching app" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoachPad - Tactical Board App for Coaches</title>
+    <meta name="description" content="CoachPad is a tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions on iOS, Android, and web.">
   <link rel="canonical" href="https://www.metechi.dev/coachpad.html" />
-  <link rel="stylesheet" href="assets/site.css" />
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #00b35c;
+      color: white;
+      padding: 40px 20px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+    img.logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+    p {
+      font-size: 1.1em;
+      margin: 20px auto;
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    .button-container {
+      margin-top: 20px;
+    }
+    a.button {
+      display: inline-block;
+      background: #ffffff;
+      color: #00b35c;
+      padding: 12px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s ease, transform 0.2s ease;
+      margin: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    a.button:hover {
+      background: #f1f1f1;
+      transform: translateY(-2px);
+    }
+    section {
+      margin: 40px auto;
+      max-width: 700px;
+      text-align: left;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #00b35c;
+      margin-top: 40px;
+    }
+    ul {
+      line-height: 1.8;
+      padding-left: 22px;
+    }
+    .fact-list {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 18px 22px;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+    footer a {
+      color: #00b35c;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://www.metechi.dev/#organization",
+      "name": "Metechi",
+      "url": "https://www.metechi.dev/",
+      "description": "Metechi builds practical web and mobile products including CoachPad and Infinite Flux.",
+      "email": "info@metechi.dev",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@metechi.dev",
+        "contactType": "product support",
+        "availableLanguage": "en"
+      }
+    }
+  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -16,109 +117,197 @@
       "url": "https://www.metechi.dev/coachpad.html",
       "applicationCategory": "SportsApplication",
       "operatingSystem": "iOS, Android, Web",
-      "description": "CoachPad helps coaches create drills, animate formations, and share tactical plans.",
-      "image": "https://www.metechi.dev/assets/coachpad-logo.svg",
+      "description": "CoachPad is a tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions on iOS, Android, and web.",
+      "image": "https://www.metechi.dev/assets/logo.png",
+      "dateModified": "2026-04-29",
       "isAccessibleForFree": true,
+      "featureList": [
+        "Tactical board creation",
+        "Formation and drill planning",
+        "Animated tactic sequences",
+        "Tactic sharing for teams and coaches"
+      ],
       "sameAs": [
         "https://play.google.com/store/apps/details?id=com.coachpad",
         "https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315"
       ],
-      "publisher": { "@type": "Organization", "name": "Metechi", "url": "https://www.metechi.dev/" }
+      "publisher": {
+        "@type": "Organization",
+        "name": "Metechi",
+        "url": "https://www.metechi.dev/"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://www.metechi.dev/#website",
+      "name": "Metechi",
+      "url": "https://www.metechi.dev/",
+      "description": "Official website for Metechi."
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.metechi.dev/coachpad.html#webpage",
+          "name": "CoachPad - Tactical Board App for Coaches",
+          "url": "https://www.metechi.dev/coachpad.html",
+          "description": "CoachPad is a tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions on iOS, Android, and web.",
+          "isPartOf": {
+            "@id": "https://www.metechi.dev/#website"
+          },
+          "about": {
+            "@type": "SoftwareApplication",
+            "name": "CoachPad",
+            "url": "https://www.metechi.dev/coachpad.html"
+          },
+          "publisher": {
+            "@id": "https://www.metechi.dev/#organization"
+          },
+          "dateModified": "2026-04-29",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.metechi.dev/coachpad.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Metechi",
+              "item": "https://www.metechi.dev/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "CoachPad",
+              "item": "https://www.metechi.dev/coachpad.html"
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.metechi.dev/coachpad.html#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Who is CoachPad for?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "CoachPad is built for coaches, trainers, and teams that need a visual tactical board for planning drills, formations, and match ideas."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where is CoachPad available?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "CoachPad has public listings on Google Play and the App Store, and this page documents the web product context."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can users get support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Users can contact Metechi at info@metechi.dev for CoachPad support or product questions."
+              }
+            }
+          ]
+        }
+      ]
     }
   </script>
 </head>
-<body data-scene="coachpad">
-  <div class="scroll-meter" aria-hidden="true"><span></span></div>
-  <nav class="site-nav" aria-label="Main navigation">
-    <a class="brand" href="/">
-      <img src="assets/coachpad-logo.svg" alt="CoachPad logo" />
-      <span>CoachPad</span>
-    </a>
-    <div class="nav-links">
-      <a href="/">Metechi</a>
-      <a href="#workflow">Workflow</a>
-      <a href="#features">Features</a>
-      <a href="coachpad-privacy.html">Privacy</a>
-    </div>
-  </nav>
+<body>
 
-  <header class="hero" data-scene="coachpad">
-    <div class="hero-copy">
-      <p class="eyebrow">Tactical command board</p>
-      <h1>Match ideas, rendered like a control room.</h1>
-      <p>CoachPad turns formations, player movement, drills, and match plans into a visual workflow coaches can build, animate, and share fast.</p>
-      <div class="hero-actions">
-        <a class="button" href="https://play.google.com/store/apps/details?id=com.coachpad">Google Play</a>
-        <a class="button secondary" href="https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315">App Store</a>
-      </div>
-    </div>
-    <div class="tech-stage" aria-hidden="true">
-      <img class="stage-image" src="assets/coachpad-showcase.png" alt="" />
-      <div class="pulse-ring"></div>
-      <div class="stage-hud">
-        <div class="hud-panel"><strong>CoachPad</strong><span>Build, animate, and explain tactical sessions with a premium mobile board.</span></div>
-        <div class="scene-index">Live Board</div>
-      </div>
+  <header>
+    <img src="assets/logo.png" alt="CoachPad Logo" class="logo">
+    <h1>CoachPad</h1>
+    <p>The easiest way to create, animate, and share your tactics.</p>
+    
+    <div class="button-container">
+      <a href="https://play.google.com/store/apps/details?id=com.coachpad" class="button">Get it on Google Play</a>
+      <a href="https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315" class="button">Download on the App Store</a>
     </div>
   </header>
 
-  <main>
-    <section class="story" id="workflow">
-      <article class="chapter" data-scene="coachpad">
-        <div class="scene-copy">
-          <span class="number">01</span>
-          <p class="eyebrow">Workflow</p>
-          <h2>From rough idea to animated sequence.</h2>
-          <p>Place players, sketch the shape, map movement, and turn static formations into something players can actually understand before training or match day.</p>
-          <div class="spec-list">
-            <span>Set the shape</span>
-            <span>Map movement</span>
-            <span>Share the plan</span>
-          </div>
-        </div>
-        <div class="sticky-visual"><div class="image-fit"><img src="assets/coachpad-showcase.png" alt="" /></div></div>
-      </article>
-    </section>
+  <section>
+    <h2>About CoachPad</h2>
+    <p>
+      CoachPad is a mobile and web application that helps coaches, trainers, and teams easily design and animate tactical plans. 
+      Users can create drills, organize formations, and share tactical ideas in real time. It is designed for sports coaches who want a simple yet powerful tactical board tool.
+    </p>
+    <p>
+      The product focuses on practical coaching workflows: sketching a formation,
+      moving players through an action sequence, explaining a drill before
+      training, and keeping tactical ideas in a format that can be shared with
+      players or staff. The goal is to reduce setup time and make tactical
+      communication easier during preparation and review.
+    </p>
+  </section>
 
-    <section class="section" id="features" data-scene="studio">
-      <div class="section-head">
-        <p class="eyebrow">Features</p>
-        <h2>Simple tools, serious presentation.</h2>
-      </div>
-      <div class="feature-grid">
-        <div class="feature"><h3>Formation design</h3><p>Create team shapes and drill setups without a heavy desktop workflow.</p></div>
-        <div class="feature"><h3>Animated tactics</h3><p>Show timing, runs, rotations, and pressure triggers instead of static diagrams.</p></div>
-        <div class="feature"><h3>Team communication</h3><p>Turn tactical ideas into shareable visual context for players and staff.</p></div>
-      </div>
-    </section>
+  <section>
+    <h2>CoachPad at a Glance</h2>
+    <ul class="fact-list">
+      <li><strong>Audience:</strong> coaches, trainers, team staff, and sports educators.</li>
+      <li><strong>Core use case:</strong> create, animate, explain, and share tactical plans.</li>
+      <li><strong>Platforms:</strong> iOS, Android, and web product context.</li>
+      <li><strong>Public listings:</strong> Google Play and App Store links are available from this page.</li>
+      <li><strong>Support:</strong> product questions can be sent to info@metechi.dev.</li>
+    </ul>
+  </section>
 
-    <section class="section" data-scene="studio">
-      <div class="split">
-        <div class="section-head">
-          <p class="eyebrow">Availability</p>
-          <h2>Store links stay direct.</h2>
-          <p>CoachPad has public listings on Google Play and the App Store. Support and privacy details are maintained from this site.</p>
-          <div class="inline-actions">
-            <a class="button" href="https://play.google.com/store/apps/details?id=com.coachpad">Google Play</a>
-            <a class="button secondary" href="https://apps.apple.com/us/app/coachpad-football-tactic-board/id6755497315">App Store</a>
-            <a class="button ghost" href="coachpad-privacy.html">Privacy</a>
-          </div>
-        </div>
-        <div class="tech-stage" aria-hidden="true">
-          <img class="stage-image" src="assets/coachpad-showcase.png" alt="" />
-          <div class="stage-hud">
-            <div class="hud-panel"><strong>Support</strong><span>Questions and privacy requests: info@metechi.dev</span></div>
-            <div class="scene-index">Ready</div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
+  <section>
+    <h2>Platform and Support</h2>
+    <p>
+      CoachPad is available for iOS and Android, with support and privacy details
+      linked from this page. It is built for coaches, trainers, and teams that
+      need a fast visual workflow for planning and communicating tactics.
+    </p>
+    <p>
+      Public app listings are available on Google Play and the App Store. Support
+      requests and product inquiries can be sent to info@metechi.dev.
+    </p>
+    <p>Last updated: April 29, 2026.</p>
+  </section>
 
-  <footer class="footer">
-    <span>&copy; 2026 CoachPad. A Metechi product.</span>
-    <span><a href="coachpad-privacy.html">Privacy</a> / <a href="mailto:info@metechi.dev">Support</a></span>
+  <section>
+    <h2>FAQ</h2>
+    <p>
+      <strong>Who should use CoachPad?</strong> CoachPad is intended for coaches
+      and trainers who need a lightweight tactical board for drills, formations,
+      and team communication.
+    </p>
+    <p>
+      <strong>What does CoachPad help create?</strong> It helps create visual
+      tactics, animated sequences, training drills, and shareable coaching ideas.
+    </p>
+    <p>
+      <strong>Where can users verify availability?</strong> The Google Play and
+      App Store links in the header are the public availability references.
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      <a href="https://www.metechi.dev/coachpad-privacy.html">Privacy Policy</a> |
+      <a href="mailto:info@metechi.dev">Contact</a>
+    </p>
+    <p>&copy; 2025 CoachPad. All rights reserved.</p>
   </footer>
-  <script src="assets/site.js"></script>
+
 </body>
 </html>
+
