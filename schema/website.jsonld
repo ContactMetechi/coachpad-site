@@ -4,10 +4,9 @@
   "@id": "https://www.metechi.dev/#website",
   "name": "Metechi",
   "url": "https://www.metechi.dev/",
-  "description": "Official Metechi portfolio for practical web and mobile products.",
-  "inLanguage": "en",
-  "dateModified": "2026-04-29",
+  "description": "Official Metechi site for CoachPad and Infinite Flux.",
   "publisher": {
     "@id": "https://www.metechi.dev/#organization"
-  }
+  },
+  "inLanguage": "en"
 }

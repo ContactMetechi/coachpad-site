@@ -1,7 +1,6 @@
-# Infinite Flux - Reflex Runner Game for Mobile Players
+# Infinite Flux - Mobile Reflex Runner
 
 - URL: https://www.metechi.dev/infinite-flux.html
 - Type: product
-- Summary: Infinite Flux is a mobile reflex runner focused on lane switching, timing, focus energy, streak control, upgrades, and arcade scoring.
+- Summary: Infinite Flux is a mobile reflex runner focused on lane switching, focus energy, streaks, upgrades, and arcade scoring.
 - Platforms: iOS, Android
-- Support: info@metechi.dev

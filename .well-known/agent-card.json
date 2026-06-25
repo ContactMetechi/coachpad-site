@@ -1,6 +1,6 @@
 {
   "name": "Metechi",
-  "description": "Official Metechi portfolio for practical web and mobile products.",
+  "description": "Official Metechi site for CoachPad and Infinite Flux.",
   "version": "1.0.0",
   "url": "https://www.metechi.dev/",
   "homepage": "https://www.metechi.dev/",
@@ -23,135 +23,56 @@
   "skills": [
     {
       "id": "page-home-27f4cc6d",
-      "name": "Metechi - Web and Mobile Product Portfolio",
-      "description": "Overview of Metechi products, support links, privacy references, product status, FAQ, and discovery files.",
+      "name": "Metechi - Premium Mobile Products",
+      "description": "Homepage for the active Metechi product lineup: CoachPad and Infinite Flux.",
       "url": "https://www.metechi.dev/",
-      "tags": [
-        "metechi.dev",
-        "page",
-        "webpage"
-      ],
+      "tags": ["metechi.dev", "page", "webpage"],
       "examples": [
-        "Summarize Metechi - Web and Mobile Product Portfolio",
+        "Summarize Metechi",
         "What products are listed on https://www.metechi.dev/?"
       ],
-      "inputModes": [
-        "text/plain"
-      ],
-      "outputModes": [
-        "text/plain",
-        "text/markdown"
-      ]
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain", "text/markdown"]
     },
     {
       "id": "page-coachpad-html-6245715f",
-      "name": "CoachPad - Tactical Board App for Coaches",
-      "description": "Tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions.",
+      "name": "CoachPad - Futuristic Tactical Board for Coaches",
+      "description": "Tactical board app for coaches to create drills, animate formations, and share tactical plans.",
       "url": "https://www.metechi.dev/coachpad.html",
-      "tags": [
-        "metechi.dev",
-        "page",
-        "product"
-      ],
+      "tags": ["metechi.dev", "page", "product"],
       "examples": [
-        "Summarize CoachPad - Tactical Board App for Coaches",
+        "Summarize CoachPad",
         "What platforms does CoachPad support?"
       ],
-      "inputModes": [
-        "text/plain"
-      ],
-      "outputModes": [
-        "text/plain",
-        "text/markdown"
-      ]
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain", "text/markdown"]
     },
     {
       "id": "page-infinite-flux-html-59f7cb57",
-      "name": "Infinite Flux - Reflex Runner Game for Mobile Players",
-      "description": "Mobile reflex runner focused on lane switching, timing, focus energy, streak control, upgrades, and arcade scoring.",
+      "name": "Infinite Flux - Mobile Reflex Runner",
+      "description": "Mobile reflex runner focused on lane switching, focus energy, streaks, upgrades, and arcade scoring.",
       "url": "https://www.metechi.dev/infinite-flux.html",
-      "tags": [
-        "metechi.dev",
-        "page",
-        "product"
-      ],
+      "tags": ["metechi.dev", "page", "product"],
       "examples": [
-        "Summarize Infinite Flux - Reflex Runner Game for Mobile Players",
+        "Summarize Infinite Flux",
         "What is the core gameplay of Infinite Flux?"
       ],
-      "inputModes": [
-        "text/plain"
-      ],
-      "outputModes": [
-        "text/plain",
-        "text/markdown"
-      ]
-    },
-    {
-      "id": "page-swiftquote-html-2fee1e7f",
-      "name": "SwiftQuote - Quote and Invoice App for Freelancers",
-      "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, customer management, catalogs, and income tracking.",
-      "url": "https://www.metechi.dev/swiftquote.html",
-      "tags": [
-        "metechi.dev",
-        "page",
-        "product"
-      ],
-      "examples": [
-        "Summarize SwiftQuote - Quote and Invoice App for Freelancers",
-        "What business workflows does SwiftQuote support?"
-      ],
-      "inputModes": [
-        "text/plain"
-      ],
-      "outputModes": [
-        "text/plain",
-        "text/markdown"
-      ]
-    },
-    {
-      "id": "page-verve-html-83d1eaf5",
-      "name": "Verve - Premium Dating and Networking App",
-      "description": "Premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections.",
-      "url": "https://www.metechi.dev/verve.html",
-      "tags": [
-        "metechi.dev",
-        "page",
-        "product"
-      ],
-      "examples": [
-        "Summarize Verve - Premium Dating and Networking App",
-        "What does Verve emphasize for users?"
-      ],
-      "inputModes": [
-        "text/plain"
-      ],
-      "outputModes": [
-        "text/plain",
-        "text/markdown"
-      ]
+      "inputModes": ["text/plain"],
+      "outputModes": ["text/plain", "text/markdown"]
     }
   ],
   "highValuePages": [
     {
-      "name": "Metechi - Web and Mobile Product Portfolio",
+      "name": "Metechi - Premium Mobile Products",
       "url": "https://www.metechi.dev/"
     },
     {
-      "name": "CoachPad - Tactical Board App for Coaches",
+      "name": "CoachPad - Futuristic Tactical Board for Coaches",
       "url": "https://www.metechi.dev/coachpad.html"
     },
     {
-      "name": "Infinite Flux - Reflex Runner Game for Mobile Players",
+      "name": "Infinite Flux - Mobile Reflex Runner",
       "url": "https://www.metechi.dev/infinite-flux.html"
-    },
-    {
-      "name": "SwiftQuote - Quote and Invoice App for Freelancers",
-      "url": "https://www.metechi.dev/swiftquote.html"
-    },
-    {
-      "name": "Verve - Premium Dating and Networking App",
-      "url": "https://www.metechi.dev/verve.html"
     }
   ]
 }

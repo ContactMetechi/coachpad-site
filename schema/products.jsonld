@@ -12,9 +12,8 @@
         "url": "https://www.metechi.dev/coachpad.html",
         "applicationCategory": "SportsApplication",
         "operatingSystem": "iOS, Android, Web",
-        "description": "Tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions.",
-        "image": "https://www.metechi.dev/assets/logo.png",
-        "dateModified": "2026-04-29",
+        "description": "Tactical board app for coaches to create drills, animate formations, and share plans.",
+        "image": "https://www.metechi.dev/assets/coachpad-logo.svg",
         "isAccessibleForFree": true,
         "sameAs": [
           "https://play.google.com/store/apps/details?id=com.coachpad",
@@ -31,43 +30,9 @@
         "url": "https://www.metechi.dev/infinite-flux.html",
         "applicationCategory": "GameApplication",
         "operatingSystem": "iOS, Android",
-        "description": "Mobile reflex runner focused on lane switching, timing, focus energy, streak control, upgrades, and arcade scoring.",
+        "description": "Mobile reflex runner focused on lane switching, focus energy, streaks, upgrades, and arcade scoring.",
         "image": "https://www.metechi.dev/assets/infinite-flux-logo.png",
-        "dateModified": "2026-04-29",
         "isAccessibleForFree": true
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "item": {
-        "@type": "SoftwareApplication",
-        "name": "SwiftQuote",
-        "url": "https://www.metechi.dev/swiftquote.html",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "iOS, Android",
-        "description": "Quote and invoice app for freelancers and small businesses with PDF sharing, customer management, catalogs, and income tracking.",
-        "image": "https://www.metechi.dev/assets/swiftquote-logo.png",
-        "dateModified": "2026-04-29",
-        "isAccessibleForFree": true
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
-      "item": {
-        "@type": "SoftwareApplication",
-        "name": "Verve",
-        "url": "https://www.metechi.dev/verve.html",
-        "applicationCategory": "LifestyleApplication",
-        "operatingSystem": "iOS, Android",
-        "description": "Premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections.",
-        "image": "https://www.metechi.dev/assets/verve-logo.png",
-        "dateModified": "2026-04-29",
-        "isAccessibleForFree": true,
-        "sameAs": [
-          "https://play.google.com/store/apps/details?id=com.raven.verve"
-        ]
       }
     }
   ]

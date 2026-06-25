@@ -1,0 +1,32 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CoachPad logo</title>
+  <desc id="desc">A futuristic tactical board mark with pitch geometry and a CP monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="48" x2="448" y2="456" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07120F"/>
+      <stop offset="0.52" stop-color="#0B1D18"/>
+      <stop offset="1" stop-color="#020504"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="80" y1="80" x2="432" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#43FF91"/>
+      <stop offset="1" stop-color="#46E7FF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.26 0 0 0 0 1 0 0 0 0 0.57 0 0 0 0.8 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="88" fill="url(#bg)"/>
+  <rect x="50" y="50" width="412" height="412" rx="76" stroke="url(#edge)" stroke-width="10"/>
+  <path d="M132 134H380V378H132V134Z" stroke="#43FF91" stroke-width="10" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M256 134V378" stroke="#43FF91" stroke-width="7" opacity="0.55"/>
+  <circle cx="256" cy="256" r="55" stroke="#46E7FF" stroke-width="8" opacity="0.86"/>
+  <path d="M132 204H178V308H132" stroke="#43FF91" stroke-width="8" opacity="0.72"/>
+  <path d="M380 204H334V308H380" stroke="#43FF91" stroke-width="8" opacity="0.72"/>
+  <path d="M166 312C187 337 219 352 256 352C314 352 356 313 356 256C356 199 314 160 256 160C220 160 188 175 167 199" stroke="#F2FFF8" stroke-width="34" stroke-linecap="round"/>
+  <path d="M255 190H297C332 190 355 210 355 240C355 271 332 290 297 290H270V337" stroke="#43FF91" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <path d="M168 256H340" stroke="#46E7FF" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="166" cy="256" r="15" fill="#43FF91" filter="url(#glow)"/>
+  <circle cx="340" cy="256" r="15" fill="#46E7FF" filter="url(#glow)"/>
+</svg>

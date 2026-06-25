@@ -1,32 +1,16 @@
 # Metechi
-> Metechi builds practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve.
+> Metechi builds polished mobile products including CoachPad and Infinite Flux.
 
 Canonical: https://www.metechi.dev/
 Contact: info@metechi.dev
-Last updated: 2026-04-29
+Last updated: 2026-06-25
 
 ## Core Pages
-- [Metechi - Web and Mobile Product Portfolio](https://www.metechi.dev/) - Product portfolio, support links, privacy references, product status, and public Metechi overview.
-- [CoachPad - Tactical Board App for Coaches](https://www.metechi.dev/coachpad.html) - Tactical board app for coaches and trainers to create drills, animate formations, share tactics, and plan sessions.
-- [Infinite Flux - Reflex Runner Game for Mobile Players](https://www.metechi.dev/infinite-flux.html) - Mobile reflex runner focused on lane switching, timing, focus energy, streak control, upgrades, and arcade scoring.
-- [SwiftQuote - Quote and Invoice App for Freelancers](https://www.metechi.dev/swiftquote.html) - Quote and invoice app for freelancers and small businesses with PDF sharing, customer management, catalogs, and income tracking.
-- [Verve - Premium Dating and Networking App](https://www.metechi.dev/verve.html) - Premium dating and networking app focused on privacy, compatibility, intentional conversations, and meaningful connections.
-- [Metechi Privacy Policy](https://www.metechi.dev/privacy.html) - Website privacy overview and links to product-specific privacy policies.
+- [Metechi - Premium Mobile Products](https://www.metechi.dev/) - Public homepage for Metechi products.
+- [CoachPad - Futuristic Tactical Board for Coaches](https://www.metechi.dev/coachpad.html) - Tactical board app for coaches to create drills, animate formations, and share tactical plans.
+- [Infinite Flux - Mobile Reflex Runner](https://www.metechi.dev/infinite-flux.html) - Reflex runner game built around lane switching, timing, focus energy, streaks, and upgrades.
+- [Metechi Privacy Policy](https://www.metechi.dev/privacy.html) - Website privacy overview and product privacy links.
 
 ## Product Summary
-- CoachPad: sports coaching workflow, tactic animation, formation planning, and team communication.
-- Infinite Flux: mobile arcade gameplay with lane switching, shards, streaks, focus energy, and upgrades.
-- SwiftQuote: quotes, invoices, PDF sharing, customer management, product catalogs, and income tracking.
-- Verve: privacy-focused dating and premium social networking with compatibility-driven matching.
-
-## Public Verification
-- CoachPad links to Google Play and the App Store.
-- Verve links to Google Play.
-- Product pages include platform, support, privacy, and last-updated context.
-- Support contact: info@metechi.dev.
-
-## Discovery Files
-- Sitemap: https://www.metechi.dev/sitemap.xml
-- AI policy: https://www.metechi.dev/.well-known/ai.txt
-- Agent card: https://www.metechi.dev/.well-known/agent-card.json
-- Agent skills: https://www.metechi.dev/.well-known/agent-skills/index.json
+- CoachPad: tactical board, formation animation, drill planning, and team communication.
+- Infinite Flux: lane switching, focus energy, streak scoring, upgrades, and arcade play.

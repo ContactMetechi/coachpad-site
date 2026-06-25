@@ -1,6 +1,6 @@
-# Metechi - Web and Mobile Product Portfolio
+# Metechi - Premium Mobile Products
 
 - URL: https://www.metechi.dev/
 - Type: webpage
-- Summary: Metechi is a portfolio for practical web and mobile products including CoachPad, Infinite Flux, SwiftQuote, and Verve.
+- Summary: Metechi is the public site for CoachPad and Infinite Flux.
 - Contact: info@metechi.dev
