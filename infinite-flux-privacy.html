@@ -6,14 +6,14 @@
   <title>Infinite Flux Privacy Policy</title>
   <style>
     :root {
-      --bg: #f4f7fb;
-      --card: #ffffff;
-      --text: #1f2937;
-      --muted: #6b7280;
-      --line: #e5e7eb;
-      --accent: #0f4c81;
-      --contact-bg: #eef6ff;
-      --contact-line: #b8dcff;
+      --bg: #101827;
+      --card: rgba(255, 255, 255, 0.065);
+      --text: #eef4ff;
+      --muted: #93a3ba;
+      --line: rgba(202, 215, 238, 0.14);
+      --accent: #9cc6ff;
+      --contact-bg: rgba(76, 137, 255, 0.1);
+      --contact-line: rgba(105, 157, 255, 0.28);
     }
 
     * { box-sizing: border-box; }
@@ -21,7 +21,9 @@
     body {
       margin: 0;
       padding: 24px;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(76, 137, 255, 0.16), transparent 30%),
+        linear-gradient(135deg, #101827 0%, #101a31 48%, #0b111d 100%);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
       line-height: 1.7;
@@ -31,9 +33,11 @@
       max-width: 900px;
       margin: 0 auto;
       background: var(--card);
-      border-radius: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
       padding: 32px;
-      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+      box-shadow: 0 18px 42px rgba(0, 0, 0, 0.22);
+      backdrop-filter: blur(18px);
     }
 
     h1 {
@@ -55,7 +59,7 @@
       font-size: 1.05rem;
     }
 
-    p, li { color: #374151; }
+    p, li { color: #aab8cc; }
     ul { padding-left: 22px; }
 
     a {
