@@ -183,7 +183,8 @@ h1 {
 }
 .hero-stage,
 .visual-board,
-.lane-board {
+.lane-board,
+.showcase-frame {
   position: relative;
   min-height: 560px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -195,6 +196,82 @@ h1 {
   background-size: 34px 34px, 34px 34px, auto;
   box-shadow: var(--shadow), inset 0 0 80px rgba(67, 255, 145, 0.08);
   overflow: hidden;
+}
+.showcase-frame {
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 70% 18%, rgba(70, 231, 255, 0.22), transparent 28%),
+    radial-gradient(circle at 18% 82%, rgba(67, 255, 145, 0.18), transparent 30%),
+    #030706;
+}
+.showcase-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgba(5, 8, 7, 0.52), transparent 34%, rgba(5, 8, 7, 0.12)),
+    linear-gradient(0deg, rgba(5, 8, 7, 0.78), transparent 34%, rgba(5, 8, 7, 0.18));
+}
+.showcase-frame::after {
+  content: "";
+  position: absolute;
+  inset: -30%;
+  z-index: 3;
+  pointer-events: none;
+  background: conic-gradient(from 180deg, transparent, rgba(67, 255, 145, 0.18), transparent, rgba(70, 231, 255, 0.14), transparent);
+  animation: orbitGlow 9s linear infinite;
+  mix-blend-mode: screen;
+  opacity: 0.7;
+}
+.showcase-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(1.14) contrast(1.08);
+  transform: scale(1.02);
+}
+.showcase-content {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  z-index: 4;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 14px;
+}
+.showcase-chip,
+.showcase-kicker {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(3, 8, 7, 0.58);
+  backdrop-filter: blur(18px);
+  border-radius: 8px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+.showcase-chip {
+  width: min(270px, 100%);
+  padding: 16px;
+}
+.showcase-chip strong {
+  display: block;
+  font-size: 1.1rem;
+}
+.showcase-chip span,
+.showcase-kicker {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.showcase-kicker {
+  padding: 10px 12px;
+  color: var(--green);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 .hero-stage::before,
 .hero-stage::after,
@@ -344,11 +421,35 @@ h1 {
 .policy-block li { color: var(--muted); }
 .product-card {
   display: grid;
-  min-height: 330px;
+  min-height: 390px;
   padding: 22px;
   align-content: space-between;
   text-decoration: none;
   transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+.product-media {
+  position: relative;
+  height: 178px;
+  margin: -22px -22px 20px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.product-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.1) contrast(1.05);
+  transition: transform 260ms ease;
+}
+.product-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(4, 8, 7, 0.72), transparent 56%);
+}
+.product-card:hover .product-media img {
+  transform: scale(1.06);
 }
 .product-card:hover {
   transform: translateY(-5px);
@@ -395,6 +496,74 @@ h1 {
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: 28px;
   align-items: center;
+}
+.work-list {
+  display: grid;
+  gap: 16px;
+}
+.work-card {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.88fr) minmax(0, 1.12fr);
+  gap: 0;
+  min-height: 360px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.035);
+  box-shadow: var(--shadow);
+}
+.work-card:nth-child(even) {
+  grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr);
+}
+.work-card:nth-child(even) .work-media {
+  order: 2;
+}
+.work-media {
+  position: relative;
+  min-height: 360px;
+  overflow: hidden;
+}
+.work-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.12) contrast(1.06);
+}
+.work-copy {
+  padding: clamp(24px, 4vw, 44px);
+  align-self: center;
+}
+.work-copy p {
+  color: var(--muted);
+}
+.signal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+.signal {
+  min-height: 150px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 18px;
+  background:
+    linear-gradient(135deg, rgba(67, 255, 145, 0.12), transparent 45%),
+    rgba(255, 255, 255, 0.035);
+  overflow: hidden;
+}
+.signal b {
+  display: block;
+  color: var(--green);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.signal span {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 800;
 }
 .visual-board,
 .lane-board { min-height: 430px; }
@@ -445,8 +614,8 @@ h1 {
 .footer a { color: var(--muted); text-decoration: none; }
 .footer a:hover { color: var(--green); }
 .reveal {
-  opacity: 0;
-  transform: translateY(22px);
+  opacity: 1;
+  transform: translateY(0);
   transition: opacity 700ms ease, transform 700ms ease;
 }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
@@ -466,13 +635,24 @@ h1 {
   0%, 100% { transform: translateY(0) scale(1); }
   50% { transform: translateY(-9px) scale(1.12); }
 }
+@keyframes orbitGlow {
+  to { transform: rotate(360deg); }
+}
 @media (max-width: 920px) {
   .hero,
   .split { grid-template-columns: 1fr; }
   .hero { padding-top: 28px; }
   .hero-stage { min-height: 440px; }
   .grid.two,
-  .grid.three { grid-template-columns: 1fr; }
+  .grid.three,
+  .signal-grid { grid-template-columns: 1fr; }
+  .work-card,
+  .work-card:nth-child(even) {
+    grid-template-columns: 1fr;
+  }
+  .work-card:nth-child(even) .work-media {
+    order: 0;
+  }
 }
 @media (max-width: 640px) {
   .site-nav,
@@ -482,6 +662,11 @@ h1 {
   }
   .nav-links { justify-content: flex-start; }
   .hero-stage { min-height: 390px; }
+  .showcase-frame { min-height: 390px; }
+  .showcase-content {
+    align-items: stretch;
+    flex-direction: column;
+  }
   .metric-strip { grid-template-columns: 1fr; }
   .section { padding: 58px 0; }
   .button { width: 100%; }
